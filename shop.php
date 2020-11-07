@@ -66,7 +66,7 @@
                                        include("display/displaymenu14.php");
                                           include("display/displaymenu15.php"); ?>>
 
-
+</div>
 
       <img class="menuitemborder" src='<?php echo $image_src;  ?>' >
       <img src='<?php echo $image_src2;  ?>' >
