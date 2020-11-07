@@ -1,9 +1,6 @@
+<?php include("config.php");  
 
-<?php include("config.php");?>
-<?php include("displaymenu.php");?>
-
-
-<!DOCTYPE html>
+?>
 <html>
    <div class="header">
       <head class="head">
