@@ -17,7 +17,7 @@ if(isset($_POST['but_upload'])){
   if( in_array($imageFileType,$extensions_arr) ){
  
      // Insert record
-     $query = "insert into MenuItems(image) values('".$name."')";
+     $query = "insert into menuitems(image) values('".$name."')";
      mysqli_query($con,$query);
   
      // Upload file
