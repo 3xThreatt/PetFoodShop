@@ -51,10 +51,7 @@
 
 </div>
    <div class="menu-tiles" <?php include("displaymenu.php");   ?>>
-      <p class="menu-title"><?php echo $menutitle; ?></p>
       <img class="menu-image" src='<?php echo $menuimage_src;  ?>' >
-      <p class="menu-content"><?php echo $menuprice;   ?></p>
-      <p class="menu-content"><?php echo $menucontent;   ?></p>
    </div>
 </body>
 
