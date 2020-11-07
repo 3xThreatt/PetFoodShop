@@ -1,11 +1,6 @@
-<?php include 'config.php';
+<?php
 include("config.php");
-$image_src1 = "uploads/Banner1.jpg";
-$image_src2 = "uploads/Banner2.jpg";
-$image_src3 = "uploads/Banner3.jpg";
-            ?>
-
-
+?>
 <html>
    <div class="header">
    <head class="head">
@@ -50,9 +45,11 @@ $image_src3 = "uploads/Banner3.jpg";
          <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=139%20carrington%20road+(Unitec)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>     
          </div>
          <div id="push">&nbsp;</div>
+         <div id="banner-pictures" <?php include("retrieve.php")?>>
             <img src='<?php echo $image_src1;  ?>' >
             <img src='<?php echo $image_src2;  ?>' >
             <img src='<?php echo $image_src3;  ?>' >
+         </div>
 
 
 
