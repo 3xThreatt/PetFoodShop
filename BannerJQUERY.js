@@ -1,4 +1,3 @@
-while (i < 10) {
     $(document).ready(function(){
     	$("#banner1").hide(0, function() {
     	});
@@ -44,7 +43,6 @@ while (i < 10) {
         $("#banner3").hide(1000, function() {
         });
     });
-    i++;
-}
+
 
 
