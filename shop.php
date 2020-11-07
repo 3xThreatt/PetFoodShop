@@ -50,9 +50,9 @@
    </ul> 
 
 </div>
-   <div class="menu-tiles" <?php include("displaymenu.php");   ?>>
-      <img class="menu-image" src='<?php echo $menuimage_src;  ?>' >
-   </div>
+   <div id="banner-pictures" <?php include("displaymenu.php"); ?>>
+            <img src='<?php echo $image_src;  ?>' >
+         </div>
 </body>
 
       <div id="push">&nbsp;</div>  <!---forces footer down -->
