@@ -93,19 +93,7 @@
    <div id="push">&nbsp;</div> <!--forces footer down -->
    </body>
    <div class="footer">
-      <br>
-      <br>
-      <a href="linktree.com"><img src="media.png" height="22%" width="22%" style="float: left;"></a>
-      <a href="index.html"><img src="LogoColour.png" height="10%" width="10%" style="float: right;"></a>
-      <ul class="footerlinks">
-      <!--Quick links for easy navigation -->
-      <li class="footerLI"><a href="index.html" class="footerA">Home</a></li>
-      <li class="footerLI"><a href="legal.html" class="footerA">Legal</a></li>
-      <li class="footerLI"><a href="shop.html" class="footerA">Shop</a></li>
-      <li class="footerLI"><a href="contact.php" class="footerA">Contact Us</a></li>
-      <li class="footerLI"><a href="login.html" class="footerA">Login</a></li>
-      <li class="footerLI"><a href="login.html" class="footerA">Signup</a></li>
-      <br>
-   </div>
+         <?php include 'footer.php';?>
+      </div>
    </div>
 </html>
