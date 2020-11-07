@@ -50,8 +50,9 @@
    </ul> 
 
 </div>
-   <div id="banner-pictures" <?php include("displaymenu.php"); ?>>
+   <div id="banner-pictures" <?php include("displaymenu.php"); include("displaymenu2.php"); ?>>
             <img src='<?php echo $image_src;  ?>' >
+            <img src='<?php echo $image_src2;  ?>' >
          </div>
 </body>
 
