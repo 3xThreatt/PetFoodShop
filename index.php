@@ -26,7 +26,7 @@
                <!--nav bar for easy navigation of pages -->
                <li id="centerNAVli"><a id="centerNAVa" href="index.html">Home</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="shop.html">Shop</a></li>
-               <li id="centerNAVli"><a id="centerNAVa" href="contact.html">Contact Us</a></li>
+               <li id="centerNAVli"><a id="centerNAVa" href="contact.php">Contact Us</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
             </ul>
       </div>
@@ -102,7 +102,7 @@
       <li class="footerLI"><a href="index.html" class="footerA">Home</a></li>
       <li class="footerLI"><a href="legal.html" class="footerA">Legal</a></li>
       <li class="footerLI"><a href="shop.html" class="footerA">Shop</a></li>
-      <li class="footerLI"><a href="contact.html" class="footerA">Contact Us</a></li>
+      <li class="footerLI"><a href="contact.php" class="footerA">Contact Us</a></li>
       <li class="footerLI"><a href="login.html" class="footerA">Login</a></li>
       <li class="footerLI"><a href="login.html" class="footerA">Signup</a></li>
       <br>
