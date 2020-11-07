@@ -5,7 +5,6 @@
          <link rel="stylesheet" href="External.css">
          <?php include("config.php");?>
          <!-- Links CSS-->
-         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
          <title>
             Shop
          </title>
@@ -49,7 +48,6 @@
       </li>
    </ul>
 <body>   
-
    <div class="menu-tiles" <?php include("displaymenu.php");   ?>>
       <p class="menu-title"><?php echo $menutitle; ?></p>
       <img class="menu-image" src='<?php echo $menuimage_src;  ?>' >
