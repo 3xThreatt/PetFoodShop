@@ -25,7 +25,7 @@
             <ul id="centerNAVul">
                <!--nav bar for easy navigation of pages -->
                <li id="centerNAVli"><a id="centerNAVa" href="index.html">Home</a></li>
-               <li id="centerNAVli"><a id="centerNAVa" href="shop.html">Shop</a></li>
+               <li id="centerNAVli"><a id="centerNAVa" href="shop.php">Shop</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="contact.php">Contact Us</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
             </ul>
@@ -34,12 +34,12 @@
       <div id="rectangle2">
       </div>
       <div class="container">	<!--featured products displayed as images which link to the shop page -->
-      <div class="tile"><a href="shop.html"><img src="Tile1.png"></div></a>
-      <div class="tile"><a href="shop.html"><img src="Tile2.png"></div></a>
-      <div class="tile"><a href="shop.html"><img src="Tile1.png"></div></a>
-      <div class="tile"><a href="shop.html"><img src="Tile3.png"></div></a>
-      <div class="tile"><a href="shop.html"><img src="Til4.png"></div></a>
-      <div class="tile"><a href="shop.html"><img src="Tile2.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="Tile1.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="Tile2.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="Tile1.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="Tile3.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="Til4.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="Tile2.png"></div></a>
       </div>
       <h1 class="at-item">Welcome</h1> <!--css animation-->
       <img src="pngegg.png" class="dog">	<!---decorative dog. Woof! -->

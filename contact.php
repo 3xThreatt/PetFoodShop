@@ -24,7 +24,7 @@ include("config.php");
       <body>
          <ul id="centerNAVul">
             <li id="centerNAVli"><a id="centerNAVa" href="index.php">Home</a></li>
-            <li id="centerNAVli"><a id="centerNAVa" href="shop.html">Shop</a></li>
+            <li id="centerNAVli"><a id="centerNAVa" href="shop.php">Shop</a></li>
             <li id="centerNAVli"><a id="centerNAVa" href="contact.php">Contact Us</a></li>
             <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
          </ul>
