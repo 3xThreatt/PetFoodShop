@@ -1,7 +1,7 @@
 <?php
 include("config.php");
 
-$title = "select menuid from MenuItems where id=1";
+$title = "select menuid from MenuItems where menuid=1";
 $result = mysqli_query($con,$sql);
 $row = mysqli_fetch_array($result);
 
