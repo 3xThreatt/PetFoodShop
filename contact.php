@@ -5,6 +5,7 @@ include("config.php");
    <div class="header">
    <head class="head">
       <link rel="stylesheet" href="External.css">
+      <script src="BannerJQUERY.js"></script>
       
       <title>
          Contact Us
@@ -46,9 +47,10 @@ include("config.php");
          </div>
          <div id="push">&nbsp;</div>
          <div id="banner-pictures" <?php include("retrieve.php"); include("retrieve2.php"); include("retrieve3.php");?>>
-            <img class="banner-pictures" src='<?php echo $image_src;  ?>' >
-            <img class="banner-pictures" src='<?php echo $image_src2;  ?>' >
-            <img class="banner-pictures" src='<?php echo $image_src3;  ?>' >
+            <h4 style="text-align: center;" id="input">Hover to see banners</h4>
+            <img class="banner-pictures" id="banner1" src='<?php echo $image_src;  ?>' >
+            <img class="banner-pictures" id="banner2" src='<?php echo $image_src2;  ?>' >
+            <img class="banner-pictures" id="banner3"src='<?php echo $image_src3;  ?>' >
 `
 
  
