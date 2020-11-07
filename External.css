@@ -466,3 +466,10 @@ table {
 	height: 200px;
 	position: sticky;
 }
+.menuitemborder {
+	height: 200px;
+	width: 150px;
+	display: inline;
+	border: 1px solid #ccc;
+	background-color: #F4F4F4;
+}
