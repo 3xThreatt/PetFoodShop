@@ -50,9 +50,36 @@
    </ul> 
 
 </div>
-   <div id="banner-pictures" <?php include("display/displaymenu.php"); include("display/displaymenu2.php"); ?>>
-            <img src='<?php echo $image_src;  ?>' >
-            <img src='<?php echo $image_src2;  ?>' >
+   <div id="banner-pictures" <?php include("display/displaymenu.php"); 
+   include("display/displaymenu2.php");
+      include("display/displaymenu3.php");
+         include("display/displaymenu4.php");
+            include("display/displaymenu5.php");
+               include("display/displaymenu6.php");
+                  include("display/displaymenu7.php");
+                     include("display/displaymenu8.php");
+                        include("display/displaymenu9.php");
+                           include("display/displaymenu10.php");
+                              include("display/displaymenu11.php");
+                                 include("display/displaymenu12.php");
+                                    include("display/displaymenu13.php");
+                                       include("display/displaymenu14.php");
+                                          include("display/displaymenu15.php"); ?>>
+   <img src='<?php echo $image_src;  ?>' >
+      <img src='<?php echo $image_src2;  ?>' >
+         <img src='<?php echo $image_src3;  ?>' >
+            <img src='<?php echo $image_src4;  ?>' >
+               <img src='<?php echo $image_src5;  ?>' >
+                  <img src='<?php echo $image_src6;  ?>' >
+                     <img src='<?php echo $image_src7;  ?>' >
+                        <img src='<?php echo $image_src8;  ?>' >
+                           <img src='<?php echo $image_src9;  ?>' >
+                              <img src='<?php echo $image_src10;  ?>' >
+                                 <img src='<?php echo $image_src11;  ?>' >
+                                    <img src='<?php echo $image_src12;  ?>' >
+                                       <img src='<?php echo $image_src13;  ?>' >
+                                          <img src='<?php echo $image_src14;  ?>' >
+                                             <img src='<?php echo $image_src15;  ?>' >
          </div>
 </body>
 
