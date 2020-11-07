@@ -20,7 +20,7 @@
       </head>
       </div>
       <div class="content">
-         <body onload="moveAd(), moveText(), invoice()">
+         <body>
             <!-- Promts three javascript functions on page load-->
             <ul id="centerNAVul">
                <!--navigation bar -->
