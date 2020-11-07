@@ -3,9 +3,9 @@ include("config.php");
 
 if(isset($_POST['but_upload'])){
  
-  $image = $_FILES['file']['image'];
+  $name = $_FILES['file']['name'];
   $target_dir = "menuimages/";
-  $target_file = $target_dir . basename($_FILES["file"]["image"]);
+  $target_file = $target_dir . basename($_FILES["file"]["name"]);
 
   // Select file type
   $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
@@ -17,11 +17,11 @@ if(isset($_POST['but_upload'])){
   if( in_array($imageFileType,$extensions_arr) ){
  
      // Insert record
-     $query = "insert into MenuItems(image) values('".$image."')";
+     $query = "insert into MenuItems(image) values('".$name."')";
      mysqli_query($con,$query);
   
      // Upload file
-     move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$image);
+     move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$name);
 
   }
  
