@@ -1,7 +1,11 @@
 <?php
 include("config.php");
-$sql = "Banner1.jpg";
-$image_src1 = "uploads/Banner1.jpg";
-$image_src2 = "uploads/Banner2.jpg";
-$image_src3 = "uploads/Banner3.jpg";
+
+$sql = "select name from images where id=1";
+$result = mysqli_query($con,$sql);
+$row = mysqli_fetch_array($result);
+
+$image = $row['name'];
+$image_src = "upload/".$image;
+
 ?>
