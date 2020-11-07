@@ -1,10 +1,14 @@
+
+<?php include("config.php");?>
+<?php include("displaymenu.php");?>
+
+
 <!DOCTYPE html>
 <html>
    <div class="header">
       <head class="head">
          <link rel="stylesheet" href="External.css">
-         <?php include("config.php");?>
-         <!-- Links CSS-->
+                  <!-- Links CSS-->
          <title>
             Shop
          </title>
@@ -48,12 +52,7 @@
       </li>
    </ul>
 <body>   
-   <div class="menu-tiles" <?php include("displaymenu.php");   ?>>
-      <p class="menu-title"><?php echo $menutitle; ?></p>
-      <img class="menu-image" src='<?php echo $menuimage_src;  ?>' >
-      <p class="menu-content"><?php echo $menuprice;   ?></p>
-      <p class="menu-content"><?php echo $menucontent;   ?></p>
-   </div>
+
 
       <div id="push">&nbsp;</div>  <!---forces footer down -->
       </body>
