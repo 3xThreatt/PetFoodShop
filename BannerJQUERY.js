@@ -15,16 +15,8 @@
 
 
     $(document).ready(function(){
-        $("#banner3").show(10000, function() {
+        $("#banner1").show(10000, function() {
+            $("#banner1").hide(10000, function() {
+        });
         });
     });
-    $(document).ready(function(){
-        $("#banner3").show(10000, function() {
-        });
-    });
-    $(document).ready(function(){
-        $("#banner3").show(10000, function() {
-        });
-    });
-
-

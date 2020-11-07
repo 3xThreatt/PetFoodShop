@@ -28,6 +28,12 @@ include("config.php");
             <li id="centerNAVli"><a id="centerNAVa" href="contact.html">Contact Us</a></li>
             <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
          </ul>
+         <div id="banner-pictures" <?php include("retrieve.php"); include("retrieve2.php"); include("retrieve3.php");?>>
+            <img class="banner-pictures" id="banner1" src='<?php echo $image_src;  ?>' >
+            <img class="banner-pictures" id="banner2" src='<?php echo $image_src2;  ?>' >
+            <img class="banner-pictures" id="banner3"src='<?php echo $image_src3;  ?>' >
+         </div>
+
          <h3 id="contacttitle">Want to get in touch?</h3>
          <div class="contact-container">
             <!---Reference: Credit To https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
@@ -47,14 +53,6 @@ include("config.php");
          <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=139%20carrington%20road+(Unitec)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>     
          </div>
          <div id="push">&nbsp;</div>
-         <div id="banner-pictures" <?php include("retrieve.php"); include("retrieve2.php"); include("retrieve3.php");?>>
-            <img class="banner-pictures" id="banner1" src='<?php echo $image_src;  ?>' >
-            <img class="banner-pictures" id="banner2" src='<?php echo $image_src2;  ?>' >
-            <img class="banner-pictures" id="banner3"src='<?php echo $image_src3;  ?>' >
-`
-
- 
-         </div>
 
 
 
