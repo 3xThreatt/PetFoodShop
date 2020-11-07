@@ -12,7 +12,7 @@ include("config.php");
          Contact Us
       </title>
       <div class="wrapper">
-         <a href="index.html"><img id="logo" src="logoBW.png" alt='Logo'></a>
+         <a href="index.php"><img id="logo" src="logoBW.png" alt='Logo'></a>
          <h1 id="title"> Pet Food Shop</h1>
          <h3 id="supportingtitle">Fresh Food, Fresh Moments.</h3>
          <div>
@@ -23,9 +23,9 @@ include("config.php");
    <div class="content">
       <body>
          <ul id="centerNAVul">
-            <li id="centerNAVli"><a id="centerNAVa" href="index.html">Home</a></li>
+            <li id="centerNAVli"><a id="centerNAVa" href="index.php">Home</a></li>
             <li id="centerNAVli"><a id="centerNAVa" href="shop.html">Shop</a></li>
-            <li id="centerNAVli"><a id="centerNAVa" href="contact.html">Contact Us</a></li>
+            <li id="centerNAVli"><a id="centerNAVa" href="contact.php">Contact Us</a></li>
             <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
          </ul>
          <div id="banner-pictures" <?php include("retrieve.php"); include("retrieve2.php"); include("retrieve3.php");?>>
@@ -44,7 +44,7 @@ include("config.php");
                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                <label for="subject">Subject</label>
                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-               <a href="index.html"><input type="submit" value="Submit"></a>
+               <a href="index.php"><input type="submit" value="Submit"></a>
             </form>
          </div>
          <br>
