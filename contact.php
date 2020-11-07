@@ -46,9 +46,9 @@ include("config.php");
          </div>
          <div id="push">&nbsp;</div>
          <div id="banner-pictures" <?php include("retrieve.php"); include("retrieve2.php"); include("retrieve3.php");?>>
-            <img src='<?php echo $image_src;  ?>' >
-            <img src='<?php echo $image_src2;  ?>' >
-            <img src='<?php echo $image_src3;  ?>' >
+            <img class="banner-pictures" src='<?php echo $image_src;  ?>' >
+            <img class="banner-pictures" src='<?php echo $image_src2;  ?>' >
+            <img class="banner-pictures" src='<?php echo $image_src3;  ?>' >
 `
 
  
