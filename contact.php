@@ -5,6 +5,7 @@ include("config.php");
    <div class="header">
    <head class="head">
       <link rel="stylesheet" href="External.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="BannerJQUERY.js"></script>
       
       <title>
@@ -47,7 +48,6 @@ include("config.php");
          </div>
          <div id="push">&nbsp;</div>
          <div id="banner-pictures" <?php include("retrieve.php"); include("retrieve2.php"); include("retrieve3.php");?>>
-            <h4 style="text-align: center;" id="input">Hover to see banners</h4>
             <img class="banner-pictures" id="banner1" src='<?php echo $image_src;  ?>' >
             <img class="banner-pictures" id="banner2" src='<?php echo $image_src2;  ?>' >
             <img class="banner-pictures" id="banner3"src='<?php echo $image_src3;  ?>' >
