@@ -1,6 +1,7 @@
 <?php 
 include("config.php");  
 include("retrieveCategory.php");
+include("retrieveCategory2.php");
 ?>
 <html>
    <div class="header">
@@ -35,7 +36,7 @@ include("retrieveCategory.php");
                <ul id="leftpanelUL">
                <li class="leftpanelLI">Species</li>
                <li class="leftpanel-LI"><a href="dogfood.php" class="leftpanelA"><?php echo $firstCategory ?><a></li>
-               <li class="leftpanel-LI"><a href="catfood.php" class="leftpanelA">Cat</a></li>
+               <li class="leftpanel-LI"><a href="catfood.php" class="leftpanelA"><?php echo $secondCategory ?></a></li>
                <li class="leftpanel-LI"><a href="birdfood.php" class="leftpanelA">Bird</a></li>
                <li class="leftpanel-LI"><a href="fishfood.php" class="leftpanelA">Fish</a></li>
                <li class="leftpanelLI">Price</li>
