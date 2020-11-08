@@ -66,22 +66,49 @@ include("config.php");
                                        include("display/displaymenu14.php");
                                           include("display/displaymenu15.php"); ?>>
 
-      <img id="menuitemborder" src='<?php echo $image_src;  ?>' >
-      <img id="menuitemborder" src='<?php echo $image_src2;  ?>' >
-         <img id="menuitemborder" src='<?php echo $image_src3;  ?>' >
-            <img id="menuitemborder" src='<?php echo $image_src4;  ?>' >
-               <img id="menuitemborder" src='<?php echo $image_src5;  ?>' >
-                  <img id="menuitemborder" src='<?php echo $image_src6;  ?>' >
-                     <img id="menuitemborder" src='<?php echo $image_src7;  ?>' >
-                        <img id="menuitemborder" src='<?php echo $image_src8;  ?>' >
-                           <img id="menuitemborder" src='<?php echo $image_src9;  ?>' >
-                              <img id="menuitemborder" src='<?php echo $image_src10;  ?>' >
-                                 <img id="menuitemborder" src='<?php echo $image_src11;  ?>' >
-                                    <img id="menuitemborder" src='<?php echo $image_src12;  ?>' >
-                                       <img id="menuitemborder" src='<?php echo $image_src13;  ?>' >
-                                          <img id="menuitemborder" src='<?php echo $image_src14;  ?>' >
-                                             <img id="menuitemborder" src='<?php echo $image_src15;  ?>' >
+       >
+         >
+            
+               <img src='<?php echo $image_src5;  ?>' >
+                  <img src='<?php echo $image_src6;  ?>' >
+                     <img src='<?php echo $image_src7;  ?>' >
+                        <img src='<?php echo $image_src8;  ?>' >
+                           <img src='<?php echo $image_src9;  ?>' >
+                              <img src='<?php echo $image_src10;  ?>' >
+                                 <img src='<?php echo $image_src11;  ?>' >
+                                    <img src='<?php echo $image_src12;  ?>' >
+                                       <img src='<?php echo $image_src13;  ?>' >
+                                          <img src='<?php echo $image_src14;  ?>' >
+                                             <img src='<?php echo $image_src15;  ?>' >
          </div>
+
+         <div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src='<?php echo $image_src;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+   <img src='<?php echo $image_src2;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+     <img src='<?php echo $image_src3;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src4;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 <style type="text/css">
 #menuitemborder {
    height: 200px;
@@ -89,6 +116,26 @@ include("config.php");
    float: right;
    display: inline;
    margin: 10px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 </style>
 </body>

@@ -358,36 +358,6 @@ input[type=submit] {/*Styles the physical design of submit inputs */
     }
 }
 
-div.product { /* Sets basic properties for product tiles*/
-  margin: 4px;
-  border: 1px solid #ccc;
-  float: right;
-  width: 150px;
-  background-color: #F4F4F4;
-  padding-right: 10px;
-  padding-left: 10px;
-
-}
-
-div.product:hover { /* defines properties for when cursor hovers over product tiles*/
-  border: 1px solid #777;
-  border-radius: 20px;
-}
-
-div.product img {/* defines properties for image in product tiles*/
-  width: 100%;
-  height: auto;
-}
-
-div.desc {/* defines properties for description in product tiles*/
-  padding: 15px;
-  text-align: center;
-}
-div.price { /* defines properties for price in product tiles*/
-  padding: 15px;
-  text-align: center;
-  color: red;
- }
 .to-cart { /* Takes you to cart*/
 	border-style: none;
 	font-family: "Verdana";
