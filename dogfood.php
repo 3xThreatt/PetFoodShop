@@ -30,13 +30,14 @@ include("config.php");
                <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
             </ul>
             <div class="leftpanel">
+              <div <?php include("retrieveCategory.php"); ?>>
                <!-- Left panel where categories, filters and invoice are available-->
                <ul id="leftpanelUL">
                <li class="leftpanelLI">Species</li>
-               <li class="leftpanel-LI"><a href="dogfood.php" class="leftpanelA">Dog Food &#9675;<a></li>
-               <li class="leftpanel-LI"><a href="catfood.php" class="leftpanelA">Cat Food  &#9675;</a></li>
-               <li class="leftpanel-LI"><a href="birdfood.php" class="leftpanelA">Bird Food  &#9675;</a></li>
-               <li class="leftpanel-LI"><a href="fishfood.php" class="leftpanelA">Fish Food  &#9675;</a></li>
+               <li class="leftpanel-LI"><a href="dogfood.php" class="leftpanelA"><?php echo $firstCategory ?><a></li>
+               <li class="leftpanel-LI"><a href="catfood.php" class="leftpanelA"><?php echo $secondCategory ?></a></li>
+               <li class="leftpanel-LI"><a href="birdfood.php" class="leftpanelA"><?php echo $thirdCategory ?></a></li>
+               <li class="leftpanel-LI"><a href="fishfood.php" class="leftpanelA"><?php echo $fourthCategory ?></a></li>
                <li class="leftpanelLI">Price</li>
                <!-- Javascript slider which allows for filter in price-->
                <li class="slider-LI">
