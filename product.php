@@ -10,7 +10,7 @@ include("retrieveProduct.php")
         <script type="text/javascript" src="js/jquery.shop.js"></script>
          <!--Links CSS-->
          <title>
-            Home
+            Shop
          </title>
          <div class="wrapper">
             <a href="index.html"><img id="logo" src="logoBW.png" alt='Logo'></a>
@@ -47,14 +47,13 @@ include("retrieveProduct.php")
           </div>
           <div class="product-description" data-name="Wine #1" data-price="5">
             <h3 class="product-name"><?php echo $productName; ?></h3>
-            <p class="product-price"><?php echo $productPrice; ?></p>
+            <p class="product-price">$<?php echo $productPrice; ?></p>
             <form class="add-to-cart" action="cart.html" method="post">
               <div>
-                <label for="qty-1" style="float: right; display: inline;">Quantity</label><input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
-                
+                <label for="qty-1">Quantity</label><input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
               </div>
               <br>
-              <p><input type="submit" value="Add to cart" class="btn" /></p>
+              <p><input type="submit" value="Add to cart" class="btn"/></p>
             </form>
           </div>
         </li>
