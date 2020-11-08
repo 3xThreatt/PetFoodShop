@@ -53,7 +53,7 @@ include("retrieveProduct.php")
             <p class="product-price">&euro; 5</p>
             <form class="add-to-cart" action="cart.html" method="post">
               <div class="push">
-                <label for="qty-1" style="float: right;">Quantity: </label><input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+                <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="Quantity:" />
               </div>
               <br>
               <br>
