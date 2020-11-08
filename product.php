@@ -69,13 +69,12 @@ include("retrieveProduct.php")
 
 </div>
 
-  
-
-
 
  <div id="push">&nbsp;</div>  
   <div id="push">&nbsp;</div> 
+    <div class="right-product-wrapper">
     <h2 class="product-name-right"><?php echo $productName; ?></h2>
+  </div>
    </body>
    <div class="footer">
          <?php include 'footer.php';?>
