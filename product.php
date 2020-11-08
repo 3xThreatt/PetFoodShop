@@ -56,6 +56,7 @@ include("retrieveProduct.php")
               </div>
               <br>
               <br>
+              <br>
               <p><input type="submit" value="Add to cart" class="btn" /></p>
 
             </form>
