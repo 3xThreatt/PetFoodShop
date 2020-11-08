@@ -35,9 +35,9 @@ include("retrieveCategory.php");
                <ul id="leftpanelUL">
                <li class="leftpanelLI">Species</li>
                <li class="leftpanel-LI"><a href="dogfood.php" class="leftpanelA"><?php echo $firstCategory ?><a></li>
-               <li class="leftpanel-LI"><a href="catfood.php" class="leftpanelA"><?php echo $secondCategory ?></a></li>
-               <li class="leftpanel-LI"><a href="birdfood.php" class="leftpanelA"><?php echo $thirdCategory ?></a></li>
-               <li class="leftpanel-LI"><a href="fishfood.php" class="leftpanelA"><?php echo $fourthCategory ?></a></li>
+               <li class="leftpanel-LI"><a href="catfood.php" class="leftpanelA">Cat</a></li>
+               <li class="leftpanel-LI"><a href="birdfood.php" class="leftpanelA">Bird</a></li>
+               <li class="leftpanel-LI"><a href="fishfood.php" class="leftpanelA">Fish</a></li>
                <li class="leftpanelLI">Price</li>
                <!-- Javascript slider which allows for filter in price-->
                <li class="slider-LI">
