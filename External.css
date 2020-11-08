@@ -458,6 +458,7 @@ table {
 	right: 10%;
 
 }
+
 .banner-pictures {
 	width: 100%;
 	margin-left: auto;
@@ -466,7 +467,7 @@ table {
 	height: 200px;
 	position: sticky;
 }
-.menuitemborder {
+#menuitemborder {
 	height: 200px;
 	width: 150px;
 }
