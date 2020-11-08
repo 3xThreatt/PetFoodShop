@@ -2,6 +2,8 @@
 include("config.php");  
 include("retrieveCategory.php");
 include("retrieveCategory2.php");
+include("retrieveCategory3.php");
+include("retrieveCategory4.php");
 ?>
 <html>
    <div class="header">
@@ -37,8 +39,8 @@ include("retrieveCategory2.php");
                <li class="leftpanelLI">Species</li>
                <li class="leftpanel-LI"><a href="dogfood.php" class="leftpanelA"><?php echo $firstCategory ?><a></li>
                <li class="leftpanel-LI"><a href="catfood.php" class="leftpanelA"><?php echo $secondCategory ?></a></li>
-               <li class="leftpanel-LI"><a href="birdfood.php" class="leftpanelA">Bird</a></li>
-               <li class="leftpanel-LI"><a href="fishfood.php" class="leftpanelA">Fish</a></li>
+               <li class="leftpanel-LI"><a href="birdfood.php" class="leftpanelA"><?php echo $thirdCategory ?></a></li>
+               <li class="leftpanel-LI"><a href="fishfood.php" class="leftpanelA"><?php echo $fourthCategory ?></a></li>
                <li class="leftpanelLI">Price</li>
                <!-- Javascript slider which allows for filter in price-->
                <li class="slider-LI">
