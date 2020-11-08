@@ -1,5 +1,6 @@
 <?php 
 include("config.php");  
+include("retrieveCategory.php");
 ?>
 <html>
    <div class="header">
@@ -30,7 +31,6 @@ include("config.php");
                <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
             </ul>
             <div class="leftpanel">
-              <div <?php include("retrieveCategory.php"); ?>>
                <!-- Left panel where categories, filters and invoice are available-->
                <ul id="leftpanelUL">
                <li class="leftpanelLI">Species</li>
