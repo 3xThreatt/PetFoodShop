@@ -1,11 +1,12 @@
 <?php
 include("config.php");
-include("SQL/retrieveProduct.php")
+include("retrieveProduct.php")
 ?>
 <html>
    <div class="header">
       <head class="head">
          <link rel="stylesheet" href="External.css">
+         <script src="cart.js"></script>
          <!--Links CSS-->
          <title>
             Home
@@ -35,7 +36,15 @@ include("SQL/retrieveProduct.php")
 </div>
 
 
-
+<div class="card1">
+            <img src="pics/bird/bird1.jpg" alt="Bird Food">
+            <div class="cardinfo">
+                <h1 class="cardtitle">Bird Food</h1>
+                <p class="cardprice">$100</p>
+                <p class="cardtext">Some text about the very<br>interesting horse food<br>we have here</p>
+                <button class="cardbtn add-to-cart" data-id="19">ADD TO CART</button>
+            </div>
+        </div>
 
 
  <div id="push">&nbsp;</div>  
