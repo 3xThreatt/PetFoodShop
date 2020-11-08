@@ -48,7 +48,7 @@ include("retrieveProduct.php")
               <br>
                 <br>
                   <br>
-            <h2 class="product-name"><?php echo $productName; ?></h3>
+            <h2 class="product-name"><?php echo $productName; ?></h2>
               <br>
             <p class="product-price">&euro; 5</p>
             <form class="add-to-cart" action="cart.html" method="post">
@@ -59,6 +59,7 @@ include("retrieveProduct.php")
               <br>
               <br>
               <p><input type="submit" value="Add to cart" class="btn" /></p>
+              <h2 class="product-name-right"><?php echo $productName; ?></h2>
             </form>
           </div>
         </li>

@@ -471,3 +471,9 @@ table {
 	background-color: #6F7170;
 	color: #F4F4F4;
 }
+.product-name-right {
+	list-style-type: none;
+	font-family: "Trebuchet MS";
+	font-size: 40px;
+	float: right;
+}
