@@ -50,7 +50,7 @@ include("config.php");
    </ul> 
 
 </div>
-   <div id="banner-pictures" <?php include("display/displaymenu.php"); 
+   <div <?php include("display/displaymenu.php"); 
    include("display/displaymenu2.php");
       include("display/displaymenu3.php");
          include("display/displaymenu4.php");
@@ -65,8 +65,6 @@ include("config.php");
                                     include("display/displaymenu13.php");
                                        include("display/displaymenu14.php");
                                           include("display/displaymenu15.php"); ?>>
-
-</div>
 
       <img class="menuitemborder" src='<?php echo $image_src;  ?>' >
       <img src='<?php echo $image_src2;  ?>' >
