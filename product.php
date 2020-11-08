@@ -44,11 +44,10 @@ include("retrieveProduct.php")
           <div class="product-image">
             <img src="menuimages/slideshow.png" height="600" width="900" alt="" />
           </div>
-          <div class="product-description" data-name="Dog #1" data-price="5">
-              <br>
-                <br>
-                  <br>
+          <div class="product-description" data-name="Dog Food #1" data-price="5">
+            <p class="product-price">&euro; 5</p>
               <h2 class="product-name"><?php echo $productName; ?></h2>
+              <p class="description"><?php echo $productContent; ?></p>
             <form class="add-to-cart" action="cart.html" method="post">
               <div class="push">
                 <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="Quantity:" />
@@ -70,11 +69,6 @@ include("retrieveProduct.php")
 
  <div id="push">&nbsp;</div>  
   <div id="push">&nbsp;</div> 
-  <br>
-  <br>
-  <div class="right-product-wrapper" style="float: right;">
-    <h2 class="product-name-right"><?php echo $productName; ?></h2>
-  </div>
    </body>
    <div class="footer">
          <?php include 'footer.php';?>
