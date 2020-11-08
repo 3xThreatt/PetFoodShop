@@ -65,21 +65,6 @@ include("config.php");
                                     include("display/displaymenu13.php");
                                        include("display/displaymenu14.php");
                                           include("display/displaymenu15.php"); ?>>
-
-       >
-         >
-            
-               <img src='<?php echo $image_src5;  ?>' >
-                  <img src='<?php echo $image_src6;  ?>' >
-                     <img src='<?php echo $image_src7;  ?>' >
-                        <img src='<?php echo $image_src8;  ?>' >
-                           <img src='<?php echo $image_src9;  ?>' >
-                              <img src='<?php echo $image_src10;  ?>' >
-                                 <img src='<?php echo $image_src11;  ?>' >
-                                    <img src='<?php echo $image_src12;  ?>' >
-                                       <img src='<?php echo $image_src13;  ?>' >
-                                          <img src='<?php echo $image_src14;  ?>' >
-                                             <img src='<?php echo $image_src15;  ?>' >
          </div>
 
          <div class="gallery">
@@ -109,6 +94,86 @@ include("config.php");
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src5;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src6;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src7;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src8;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src9;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src10;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src11;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src12;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src13;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src14;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src15;  ?>' width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<style type="text/css">
+
 <style type="text/css">
 #menuitemborder {
    height: 200px;
