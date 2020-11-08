@@ -37,9 +37,6 @@ include("retrieveProduct.php")
 </div>
 
 <div id="site">
-  <header id="masthead">
-    <h1>Winery <span class="tagline">Wines for web developers since 1999</h1>
-  </header>
   <div id="content">
     <div id="products">
       <ul>
@@ -47,7 +44,7 @@ include("retrieveProduct.php")
           <div class="product-image">
             <img src="menuimages/slideshow.png" alt="" />
           </div>
-          <div class="product-description" data-name="Wine #1" data-price="5">
+          <div class="product-description" data-name="Dog #1" data-price="5">
             <h3 class="product-name">Wine #1</h3>
             <p class="product-price">&euro; 5</p>
             <form class="add-to-cart" action="cart.html" method="post">

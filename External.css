@@ -450,3 +450,10 @@ table {
   float: left;
   padding: 20px;
 }
+
+.product-image {
+	float: left;
+	width: 500px;
+	height: 250px;
+	display: inline;
+}
