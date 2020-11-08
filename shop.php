@@ -70,7 +70,7 @@ include("config.php");
   <a target="_blank" href="img_5terre.jpg">
     <img src='<?php echo $image_src;  ?>' width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc"><?php echo $desc;  ?></div>
 </div>
 
 <div class="gallery">
