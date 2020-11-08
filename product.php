@@ -37,6 +37,8 @@ include("retrieveProduct.php")
 </div>
 <br>
 <br>
+<br>
+<br>
 <div id="site">
   <header id="masthead">
   </header>
@@ -49,7 +51,7 @@ include("retrieveProduct.php")
           </div>
           <div class="product-description" data-name="Dog Food" data-price="5">
             <h3 class="product-name"><?php echo $productName; ?></h3>
-            <p class="product-price">$<?php echo $productPrice; ?></p>
+            <p class="product-price">Price: $<?php echo $productPrice; ?></p>
             <p><?php echo $productContent ?></p>
             <br>
             <br>
