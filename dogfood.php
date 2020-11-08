@@ -70,21 +70,21 @@ include("config.php");
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
+  <a target="_blank" href="product2.php">
    <img src='<?php echo $image_src2;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content3;  ?><br>$<?php echo $money3; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
+  <a target="_blank" href="product3.php">
      <img src='<?php echo $image_src3;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content4;  ?><br>$<?php echo $money4; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product4.php">
     <img src='<?php echo $image_src4;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content5;  ?><br>$<?php echo $money5; ?></div>

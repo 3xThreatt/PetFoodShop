@@ -64,14 +64,14 @@ include("config.php");
          </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product12.php">
     <img src='<?php echo $image_src12;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content13;  ?><br>$<?php echo $money13; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product13.php">
     <img src='<?php echo $image_src13;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content14;  ?><br>$<?php echo $money14; ?></div>

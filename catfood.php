@@ -65,28 +65,28 @@ include("config.php");
                                            ?>>
          </div>
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product5.php">
     <img src='<?php echo $image_src5;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content6;  ?><br>$<?php echo $money6; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product6.php">
     <img src='<?php echo $image_src6;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content7;  ?><br>$<?php echo $money7; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product7.php">
     <img src='<?php echo $image_src7;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content8;  ?><br>$<?php echo $money8; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product8.php">
     <img src='<?php echo $image_src8;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content9;  ?><br>$<?php echo $money9; ?></div>
