@@ -5,8 +5,9 @@ include("retrieveProduct.php")
 <html>
    <div class="header">
       <head class="head">
-         <link rel="stylesheet" href="External.css">
-         <script src="cart.js"></script>
+        <link rel="stylesheet" href="External.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.shop.js"></script>
          <!--Links CSS-->
          <title>
             Home
@@ -35,16 +36,42 @@ include("retrieveProduct.php")
   <a href="dogfood.php" style="text-decoration: none; color: #f4f4f4; "><span id="x">X</span></a>
 </div>
 
+<div id="site">
+  <header id="masthead">
+    <h1>Winery <span class="tagline">Wines for web developers since 1999</h1>
+  </header>
+  <div id="content">
+    <div id="products">
+      <ul>
+        <li>
+          <div class="product-image">
+            <img src="menuimages/slideshow.png" alt="" />
+          </div>
+          <div class="product-description" data-name="Wine #1" data-price="5">
+            <h3 class="product-name">Wine #1</h3>
+            <p class="product-price">&euro; 5</p>
+            <form class="add-to-cart" action="cart.html" method="post">
+              <div>
+                <label for="qty-1">Quantity</label>
+                <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+              </div>
+              <p><input type="submit" value="Add to cart" class="btn" /></p>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
 
-<div class="card1">
-            <img src="pics/bird/bird1.jpg" alt="Bird Food">
-            <div class="cardinfo">
-                <h1 class="cardtitle">Bird Food</h1>
-                <p class="cardprice">$100</p>
-                <p class="cardtext">Some text about the very<br>interesting horse food<br>we have here</p>
-                <button class="cardbtn add-to-cart" data-id="19">ADD TO CART</button>
-            </div>
-        </div>
+</div>
+
+
+
+
+
+
+
+
 
 
  <div id="push">&nbsp;</div>  
