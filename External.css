@@ -471,18 +471,11 @@ table {
 	background-color: #6F7170;
 	color: #F4F4F4;
 }
-.right-product-wrapper {
-	float: right;
-	width: 900px;
-	display: inline;
-}
-.product-name-right {
-	text-align: right;
-}
+
 .product-price {
 	font-family: "Trebuchet MS";
 	color: #090A0C;
 	font-size: 40px;
-	text-align: right;
+	text-align: left;
 
 }

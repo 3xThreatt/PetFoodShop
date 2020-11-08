@@ -45,12 +45,13 @@ include("retrieveProduct.php")
             <img src="menuimages/slideshow.png" height="600" width="900" alt="" />
           </div>
           <div class="product-description" data-name="Dog Food #1" data-price="5">
+          </div>
             <p class="product-price">&euro; 5</p>
               <h2 class="product-name"><?php echo $productName; ?></h2>
               <p class="description"><?php echo $productContent; ?></p>
             <form class="add-to-cart" action="cart.html" method="post">
               <div class="push">
-                <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="Quantity:" />
+                <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="Quantity" />
               </div>
               <br>
               <br>
