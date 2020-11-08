@@ -30,7 +30,9 @@ include("SQL/retrieveProduct.php")
                <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
             </ul>
       </div>
-
+<div id="orangeBox">
+  <span id="x">X</span>
+</div>
 
 
 
