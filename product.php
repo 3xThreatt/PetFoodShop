@@ -54,7 +54,7 @@ include("retrieveProduct.php")
             <form class="add-to-cart" action="cart.html" method="post">
               <div>
                 <label for="qty-1">Quantity</label>
-                <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+                <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="1" />
               </div>
               <p><input type="submit" value="Add to cart" class="btn" /></p>
             </form>
