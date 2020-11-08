@@ -27,7 +27,7 @@ $sql4 = "select productPrice from Product where productID=1";
 $result4 = mysqli_query($con,$sql4);
 $row4 = mysqli_fetch_array($result4);
 
-$productContent = $row4['productContent'];
+$productPrice = $row4['productPrice'];
 
 
 

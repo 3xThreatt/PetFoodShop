@@ -37,18 +37,17 @@ include("retrieveProduct.php")
 </div>
 <div id="site">
   <header id="masthead">
-    <h1>Winery <span class="tagline">Wines for web developers since 1999</h1>
   </header>
   <div id="content">
     <div id="products">
       <ul>
         <li>
           <div class="product-image">
-            <img src="images/wine1.jpg" alt="" />
+            <img src="<?php echo $product_src ?>" alt="" />
           </div>
           <div class="product-description" data-name="Wine #1" data-price="5">
-            <h3 class="product-name">Wine #1</h3>
-            <p class="product-price">&euro; 5</p>
+            <h3 class="product-name"><?php echo $productName; ?></h3>
+            <p class="product-price"><?php echo $productPrice; ?></p>
             <form class="add-to-cart" action="cart.html" method="post">
               <div>
                 <label for="qty-1">Quantity</label>
