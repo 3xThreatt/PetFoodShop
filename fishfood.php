@@ -20,6 +20,11 @@ include("config.php");
             </ul>
       </head>
       </div>
+                    <div <?php include("retrieveCategory.php");
+                        include("retrieveCategory2.php");
+                        include("retrieveCategory3.php");
+                        include("retrieveCategory4.php");
+  ?>>
       <div class="content">
          <body>
             <!-- Promts three javascript functions on page load-->
@@ -31,11 +36,7 @@ include("config.php");
                <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
             </ul>
             <div class="leftpanel">
-              <div <?php include("retrieveCategory.php");
-                        include("retrieveCategory2.php");
-                        include("retrieveCategory3.php");
-                        include("retrieveCategory4.php");
-  ?>>
+
                <!-- Left panel where categories, filters and invoice are available-->
                <ul id="leftpanelUL">
                <li class="leftpanelLI">Species</li>
