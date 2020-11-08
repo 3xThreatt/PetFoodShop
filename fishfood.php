@@ -1,38 +1,35 @@
-<!DOCTYPE html>
+<?php 
+include("config.php");  
+?>
 <html>
-<head>
-<title>Winery</title>
-<meta charset="utf-8" />
-<link rel="stylesheet" href="External.css" media="screen" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-</head>
-<script src="externalJ.js"></script><!--Links JS-->
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!---Links JQuery Lib-->
-         <script src="externalJQUERY.js"></script><!---Links external Jquery for animation etc -->
+   <div class="header">
+      <head class="head">
+         <link rel="stylesheet" href="External.css">
+                  <!-- Links CSS-->
          <title>
-            Home
+            Fish Food
          </title>
          <div class="wrapper">
             <a href="index.php"><img id="logo" src="logoBW.png" alt='Logo'></a>
             <h1 id="title"> Pet Food Shop</h1>
             <h3 id="supportingtitle">Fresh Food, Fresh Moments.</h3>
+            <!--Logo, title, subtitle-->
             <div>
             </div>
             </ul>
       </head>
       </div>
       <div class="content">
-         <body onload="typeWriter()">
-            <!---typing animation starts on load of page -->
+         <body>
+            <!-- Promts three javascript functions on page load-->
             <ul id="centerNAVul">
-               <!--nav bar for easy navigation of pages -->
+               <!--navigation bar -->
                <li id="centerNAVli"><a id="centerNAVa" href="index.php">Home</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="shop.php">Shop</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="contact.php">Contact Us</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
             </ul>
-      </div>
-                  <div class="leftpanel">
+            <div class="leftpanel">
                <!-- Left panel where categories, filters and invoice are available-->
                <ul id="leftpanelUL">
                <li class="leftpanelLI">Species</li>
@@ -50,28 +47,59 @@
             </a>
          </a>
       </li>
-   </ul>
-               </li>
-<body>
+   </ul> 
 
 </div>
-   <div id="push">&nbsp;</div> <!--forces footer down -->
-   </body>
-   <div class="footer">
-      <br>
-      <br>
-      <a href="linktree.com"><img src="media.png" height="22%" width="22%" style="float: left;"></a>
-      <a href="index.php"><img src="LogoColour.png" height="10%" width="10%" style="float: right;"></a>
-      <ul class="footerlinks">
-      <!--Quick links for easy navigation -->
-      <li class="footerLI"><a href="index.php" class="footerA">Home</a></li>
-      <li class="footerLI"><a href="legal.html" class="footerA">Legal</a></li>
-      <li class="footerLI"><a href="shop.php" class="footerA">Shop</a></li>
-      <li class="footerLI"><a href="contact.php" class="footerA">Contact Us</a></li>
-      <li class="footerLI"><a href="login.html" class="footerA">Login</a></li>
-      <li class="footerLI"><a href="login.html" class="footerA">Signup</a></li>
-      <br>
-   </div>
-   </div>
+   <div <?php
+                                 include("display/displaymenu12.php");
+                                    include("display/displaymenu13.php");
+                                           ?>>
+         </div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src12;  ?>' width="600" height="400">
+  </a>
+  <div class="desc"><?php echo $content13;  ?><br>$<?php echo $money13; ?></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src='<?php echo $image_src13;  ?>' width="600" height="400">
+  </a>
+  <div class="desc"><?php echo $content14;  ?><br>$<?php echo $money14; ?></div>
+</div>
+
+
+
+<style type="text/css">
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  background-color: #f4f4f4;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
 </body>
-</html>  
+
+      <div id="push">&nbsp;</div>  <!---forces footer down -->
+      <div class="footer">
+         <?php include 'footer.php';?>
+      </div>
+   </div>
+</html>
