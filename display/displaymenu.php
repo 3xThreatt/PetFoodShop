@@ -16,5 +16,10 @@ $row2 = mysqli_fetch_array($result2);
 $content2 = $row2['content'];
 
 
+$sql3 = "select menuprice from MenuItems where menuid=1";
+$result3 = mysqli_query($con,$sql3);
+$row3 = mysqli_fetch_array($result3);
+
+$money = $row3['menuprice'];
 
 ?>
