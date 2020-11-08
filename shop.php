@@ -81,77 +81,78 @@ include("config.php");
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
+  <a target="_blank" href="product3.php">
      <img src='<?php echo $image_src3;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content4;  ?><br>$<?php echo $money4; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product4.php">
     <img src='<?php echo $image_src4;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content5;  ?><br>$<?php echo $money5; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product5.php">
     <img src='<?php echo $image_src5;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content6;  ?><br>$<?php echo $money6; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product6.php">
     <img src='<?php echo $image_src6;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content7;  ?><br>$<?php echo $money7; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product7.php">
     <img src='<?php echo $image_src7;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content8;  ?><br>$<?php echo $money8; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product8.php">
     <img src='<?php echo $image_src8;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content9;  ?><br>$<?php echo $money9; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product9.php">
     <img src='<?php echo $image_src9;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content10;  ?><br>$<?php echo $money10; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product10.php">
     <img src='<?php echo $image_src10;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content11;  ?><br>$<?php echo $money11; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product11.php">
     <img src='<?php echo $image_src11;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content12;  ?><br>$<?php echo $money12; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product12.php">
     <img src='<?php echo $image_src12;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content13;  ?><br>$<?php echo $money13; ?></div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
+  <a target="_blank" href="product13
+  .php">
     <img src='<?php echo $image_src13;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content14;  ?><br>$<?php echo $money14; ?></div>
