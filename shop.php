@@ -67,25 +67,27 @@ include("config.php");
                                           include("display/displaymenu15.php"); ?>>
 
       <img id="menuitemborder" src='<?php echo $image_src;  ?>' >
-      <img src='<?php echo $image_src2;  ?>' >
-         <img src='<?php echo $image_src3;  ?>' >
-            <img src='<?php echo $image_src4;  ?>' >
-               <img src='<?php echo $image_src5;  ?>' >
-                  <img src='<?php echo $image_src6;  ?>' >
-                     <img src='<?php echo $image_src7;  ?>' >
-                        <img src='<?php echo $image_src8;  ?>' >
-                           <img src='<?php echo $image_src9;  ?>' >
-                              <img src='<?php echo $image_src10;  ?>' >
-                                 <img src='<?php echo $image_src11;  ?>' >
-                                    <img src='<?php echo $image_src12;  ?>' >
-                                       <img src='<?php echo $image_src13;  ?>' >
-                                          <img src='<?php echo $image_src14;  ?>' >
-                                             <img src='<?php echo $image_src15;  ?>' >
+      <img id="menuitemborder" src='<?php echo $image_src2;  ?>' >
+         <img id="menuitemborder" src='<?php echo $image_src3;  ?>' >
+            <img id="menuitemborder" src='<?php echo $image_src4;  ?>' >
+               <img id="menuitemborder" src='<?php echo $image_src5;  ?>' >
+                  <img id="menuitemborder" src='<?php echo $image_src6;  ?>' >
+                     <img id="menuitemborder" src='<?php echo $image_src7;  ?>' >
+                        <img id="menuitemborder" src='<?php echo $image_src8;  ?>' >
+                           <img id="menuitemborder" src='<?php echo $image_src9;  ?>' >
+                              <img id="menuitemborder" src='<?php echo $image_src10;  ?>' >
+                                 <img id="menuitemborder" src='<?php echo $image_src11;  ?>' >
+                                    <img id="menuitemborder" src='<?php echo $image_src12;  ?>' >
+                                       <img id="menuitemborder" src='<?php echo $image_src13;  ?>' >
+                                          <img id="menuitemborder" src='<?php echo $image_src14;  ?>' >
+                                             <img id="menuitemborder" src='<?php echo $image_src15;  ?>' >
          </div>
 <style type="text/css">
 #menuitemborder {
    height: 200px;
    width: 150px;
+   float: right;
+   display: inline;
 }
 </style>
 </body>
