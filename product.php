@@ -74,7 +74,6 @@ include("retrieveProduct.php")
   <br>
   <div class="right-product-wrapper" style="float: right;">
     <h2 class="product-name-right"><?php echo $productName; ?></h2>
-    <p class="product-price">&euro; 5</p>
   </div>
    </body>
    <div class="footer">
