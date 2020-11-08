@@ -8,5 +8,14 @@ $row = mysqli_fetch_array($result);
 $image = $row['image'];
 $image_src = "menuimages/".$image;
 
-echo $image_src;
+
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<?php echo $image_src; ?>
+</body>
+</html>
