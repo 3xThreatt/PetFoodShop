@@ -35,44 +35,34 @@ include("retrieveProduct.php")
 <div id="orangeBox">
   <a href="dogfood.php" style="text-decoration: none; color: #f4f4f4; "><span id="x">X</span></a>
 </div>
-<?php echo $productContent; ?></p>
 <div id="site">
+  <header id="masthead">
+    <h1>Winery <span class="tagline">Wines for web developers since 1999</h1>
+  </header>
   <div id="content">
     <div id="products">
       <ul>
-        <li style="list-style-type: none;">
+        <li>
           <div class="product-image">
-            <img src="menuimages/slideshow.png" height="600" width="900" alt="" />
+            <img src="images/wine1.jpg" alt="" />
           </div>
-          <div class="product-description" data-name="Dog Food #1" data-price="5">
-          </div>
-              <h2 class="product-name"><?php echo $productName; ?></h2>
-            </li>
-            <li style="list-style-type: none;">
-              <p class="description"><?php echo $productName; ?></p>
-            </li>
-            <li>
-              <p class="product-price">&euro; 5</p>
-              </li><li>
+          <div class="product-description" data-name="Wine #1" data-price="5">
+            <h3 class="product-name">Wine #1</h3>
+            <p class="product-price">&euro; 5</p>
             <form class="add-to-cart" action="cart.html" method="post">
-              <div class="push">
-                <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="Quantity" />
+              <div>
+                <label for="qty-1">Quantity</label>
+                <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
               </div>
-
-              <br>
-              <br>
-              <br>
               <p><input type="submit" value="Add to cart" class="btn" /></p>
-
             </form>
           </div>
         </li>
       </ul>
     </div>
   </div>
-
-</div>
-
+</span>
+</h1>
 
  <div id="push">&nbsp;</div>  
   <div id="push">&nbsp;</div> 
