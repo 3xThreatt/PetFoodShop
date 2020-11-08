@@ -33,10 +33,10 @@ include("config.php");
                <!-- Left panel where categories, filters and invoice are available-->
                <ul id="leftpanelUL">
                <li class="leftpanelLI">Species</li>
-               <li class="leftpanel-LI"><a href="dogfood.html" class="leftpanelA">Dog Food &#9675;<a></li>
-               <li class="leftpanel-LI"><a href="catfood.html" class="leftpanelA">Cat Food  &#9675;</a></li>
-               <li class="leftpanel-LI"><a href="birdfood.html" class="leftpanelA">Bird Food  &#9675;</a></li>
-               <li class="leftpanel-LI"><a href="fishfood.html" class="leftpanelA">Fish Food  &#9675;</a></li>
+               <li class="leftpanel-LI"><a href="dogfood.php" class="leftpanelA">Dog Food &#9675;<a></li>
+               <li class="leftpanel-LI"><a href="catfood.php" class="leftpanelA">Cat Food  &#9675;</a></li>
+               <li class="leftpanel-LI"><a href="birdfood.php" class="leftpanelA">Bird Food  &#9675;</a></li>
+               <li class="leftpanel-LI"><a href="fishfood.php" class="leftpanelA">Fish Food  &#9675;</a></li>
                <li class="leftpanelLI">Price</li>
                <!-- Javascript slider which allows for filter in price-->
                <li class="slider-LI">
