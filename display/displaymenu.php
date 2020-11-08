@@ -20,6 +20,6 @@ $sql3 = "select menuprice from MenuItems where menuid=1";
 $result3 = mysqli_query($con,$sql3);
 $row3 = mysqli_fetch_array($result3);
 
-$money = $row3['menuprice'];
+$money2 = $row3['menuprice'];
 
 ?>
