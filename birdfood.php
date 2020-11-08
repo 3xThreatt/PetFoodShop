@@ -1,9 +1,5 @@
 <?php 
 include("config.php");  
-include("retrieveCategory.php");
-include("retrieveCategory2.php");
-include("retrieveCategory3.php");
-include("retrieveCategory4.php");
 ?>
 <html>
    <div class="header">
@@ -23,6 +19,11 @@ include("retrieveCategory4.php");
             </ul>
       </head>
       </div>
+                          <div <?php include("retrieveCategory.php");
+                        include("retrieveCategory2.php");
+                        include("retrieveCategory3.php");
+                        include("retrieveCategory4.php");
+  ?>>
       <div class="content">
          <body>
             <!-- Promts three javascript functions on page load-->
