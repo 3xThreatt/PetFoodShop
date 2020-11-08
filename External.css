@@ -478,3 +478,10 @@ table {
 .product-name-right {
 	text-align: center;
 }
+.product-price {
+	float: left;
+	font-family: "Trebuchet MS";
+	color: red;
+	font-size: 20px;
+	
+}
