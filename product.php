@@ -49,9 +49,10 @@ include("retrieveProduct.php")
           <div class="product-image">
             <img src="<?php echo $product_src ?>" height="600px" width="900px" alt="" />
           </div>
-          <div class="product-description" data-name="Dog Food" data-price="5">
+          <div class="product-description" data-name="Dog Food" data-price="<?php echo $productPrice; ?>">
             <h3 class="product-name"><?php echo $productName; ?></h3>
-            <p class="product-price">Price: $<?php echo $productPrice; ?></p>
+            <p class="product-price">Price: 
+              $<?php echo $productPrice; ?></p>
             <p><?php echo $productContent ?></p>
             <br>
             <br>
