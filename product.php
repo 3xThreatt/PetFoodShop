@@ -33,8 +33,10 @@ include("retrieveProduct.php")
             </ul>
       </div>
 <div id="orangeBox">
-  <a href="dogfood.php" style="text-decoration: none; color: #f4f4f4; "><span id="x">X</span></a>
+  <a href="shop.php" style="text-decoration: none; color: #f4f4f4; "><span id="x">X</span></a>
 </div>
+<br>
+<br>
 <div id="site">
   <header id="masthead">
   </header>
@@ -45,7 +47,7 @@ include("retrieveProduct.php")
           <div class="product-image">
             <img src="<?php echo $product_src ?>" height="600px" width="900px" alt="" />
           </div>
-          <div class="product-description" data-name="Wine #1" data-price="5">
+          <div class="product-description" data-name="Dog Food" data-price="5">
             <h3 class="product-name"><?php echo $productName; ?></h3>
             <p class="product-price">$<?php echo $productPrice; ?></p>
             <p><?php echo $productContent ?></p>
