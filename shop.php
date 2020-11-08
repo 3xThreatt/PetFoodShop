@@ -74,7 +74,7 @@ include("config.php");
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
+  <a target="_blank" href="product2.php">
    <img src='<?php echo $image_src2;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content3;  ?><br>$<?php echo $money3; ?></div>
