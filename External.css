@@ -461,3 +461,8 @@ table {
 	font-size: 40px;
 	float: left;
 }
+.qty {
+	float: right;
+	width: 25%;
+	display: inline;
+}

@@ -49,6 +49,7 @@ include("retrieveProduct.php")
                 <br>
                   <br>
             <h2 class="product-name"><?php echo $productName; ?></h3>
+              <br>
             <p class="product-price">&euro; 5</p>
             <form class="add-to-cart" action="cart.html" method="post">
               <div>
