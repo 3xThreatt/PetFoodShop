@@ -68,7 +68,7 @@ include("config.php");
 
 </div>
 
-      <img class="menuitemborder">; " src='<?php echo $image_src;  ?>' >
+      <img class="menuitemborder" src='<?php echo $image_src;  ?>' >
       <img src='<?php echo $image_src2;  ?>' >
          <img src='<?php echo $image_src3;  ?>' >
             <img src='<?php echo $image_src4;  ?>' >
