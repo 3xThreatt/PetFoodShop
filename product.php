@@ -57,6 +57,8 @@ include("retrieveProduct.php")
                 <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="1" />
               </div>
               <br>
+              <br>
+              <br>
               <p><input type="submit" value="Add to cart" class="btn" /></p>
             </form>
           </div>
