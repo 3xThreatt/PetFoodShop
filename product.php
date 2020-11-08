@@ -31,7 +31,7 @@ include("SQL/retrieveProduct.php")
             </ul>
       </div>
 <div id="orangeBox">
-  <a href="dogfood.php"><span id="x">X</span></a>
+  <a href="dogfood.php" style="text-decoration: none;"><span id="x">X</span></a>
 </div>
 
 
