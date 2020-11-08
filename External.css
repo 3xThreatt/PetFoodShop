@@ -270,7 +270,7 @@ hr.breaker {     /* used for breaking layout */
  	font-family: "Verdana";
 }
 input[type=text], select, textarea { /*Reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_register_form */
-  width: 100%;    /*Styles the physical design of text inputs */
+  width: 25%;    /*Styles the physical design of text inputs */
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
