@@ -474,7 +474,6 @@ table {
 .right-product-wrapper {
 	float: right;
 	width: 900px;
-	display: inline;
 }
 .product-name-right {
 	text-align: right;
