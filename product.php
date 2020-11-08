@@ -38,7 +38,8 @@ include("SQL/retrieveProduct.php")
 
 
 
-
+ <div id="push">&nbsp;</div>  
+  <div id="push">&nbsp;</div> 
    </body>
    <div class="footer">
          <?php include 'footer.php';?>
