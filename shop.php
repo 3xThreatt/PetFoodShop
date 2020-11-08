@@ -1,7 +1,7 @@
 <?php include("config.php");  
 
 ?>
-<html>
+<!DOCTYPE html>
    <div class="header">
       <head class="head">
          <link rel="stylesheet" href="External.css">
