@@ -59,17 +59,17 @@ include("retrieveProduct.php")
               <br>
               <br>
               <p><input type="submit" value="Add to cart" class="btn" /></p>
-              <h2 class="product-name-right"><?php echo $productName; ?></h2>
+              
             </form>
           </div>
         </li>
       </ul>
     </div>
   </div>
-
+  
 </div>
-
-
+  <h2 class="product-name-right"><?php echo $productName; ?></h2>
+  
 
 
 
