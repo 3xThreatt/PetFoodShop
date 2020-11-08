@@ -463,3 +463,10 @@ table {
 
 
 }
+.wrapper-cart {
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	background-color: #F4F4F4;
+
+}
