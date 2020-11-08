@@ -88,6 +88,7 @@ include("config.php");
    width: 150px;
    float: right;
    display: inline;
+   margin: 10px;
 }
 </style>
 </body>
