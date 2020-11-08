@@ -40,7 +40,7 @@ include("retrieveProduct.php")
   <div id="content">
     <div id="products">
       <ul>
-        <li>
+        <li style="list-style-type: none;">
           <div class="product-image">
             <img src="menuimages/slideshow.png" height="600" width="900" alt="" />
           </div>
