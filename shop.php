@@ -151,8 +151,7 @@ include("config.php");
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="product13
-  .php">
+  <a target="_blank" href="product13.php">
     <img src='<?php echo $image_src13;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content14;  ?><br>$<?php echo $money14; ?></div>
