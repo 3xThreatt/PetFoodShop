@@ -63,7 +63,6 @@ include("config.php");
                               include("display/displaymenu11.php");
                                  include("display/displaymenu12.php");
                                     include("display/displaymenu13.php");
-                                       include("display/displaymenu14.php");
                                            ?>>
          </div>
 
@@ -158,12 +157,6 @@ include("config.php");
   <div class="desc">Add a description of the image here</div>
 </div>
 
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src='<?php echo $image_src14;  ?>' width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
 
 
 <style type="text/css">
