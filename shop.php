@@ -68,7 +68,7 @@
 
 </div>
 
-      <div class="menuitemborder"><img src='<?php echo $image_src;  ?>' ></div>
+      <img style="height: 200px; width: 50px; "> src='<?php echo $image_src;  ?>' >
       <img src='<?php echo $image_src2;  ?>' >
          <img src='<?php echo $image_src3;  ?>' >
             <img src='<?php echo $image_src4;  ?>' >
