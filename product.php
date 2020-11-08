@@ -54,7 +54,7 @@ include("retrieveProduct.php")
               <br>
               <br>
               <br>
-            <p class="product-price">&euro; 5</p>
+            
             <form class="add-to-cart" action="cart.html" method="post">
               <div class="push">
                 <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="Quantity:" />
@@ -78,7 +78,7 @@ include("retrieveProduct.php")
   <div id="push">&nbsp;</div> 
     <div class="right-product-wrapper">
     <h2 class="product-name-right"><?php echo $productName; ?></h2>
-    <h2 class="product-name"><?php echo $productName; ?></h2>
+    <p class="product-price">&euro; 5</p>
   </div>
    </body>
    <div class="footer">
