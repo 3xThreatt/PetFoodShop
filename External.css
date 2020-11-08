@@ -455,3 +455,9 @@ table {
 	float: right;
 	display: inline;
 }
+.product-name {
+	list-style-type: none;
+	font-family: "Trebuchet MS";
+	font-size: 40px;
+	float: left;
+}
