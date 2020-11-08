@@ -29,6 +29,11 @@ $row4 = mysqli_fetch_array($result4);
 
 $productPrice = $row4['productPrice'];
 
+$sql5 = "select productQTY from Product where productID=1";
+$result5 = mysqli_query($con,$sql5);
+$row5 = mysqli_fetch_array($result5);
+
+$productQTY = $row5['productQTY'];
 
 
 ?>

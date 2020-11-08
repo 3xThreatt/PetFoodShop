@@ -41,7 +41,7 @@ include("retrieveProduct.php")
   <div id="content">
     <div id="products">
       <ul>
-        <li>
+        <li style="list-style-type: none;">
           <div class="product-image">
             <img src="<?php echo $product_src ?>" height="600px" width="900px" alt="" />
           </div>
@@ -49,8 +49,9 @@ include("retrieveProduct.php")
             <h3 class="product-name"><?php echo $productName; ?></h3>
             <p class="product-price">$<?php echo $productPrice; ?></p>
             <form class="add-to-cart" action="cart.html" method="post">
+              <p>Quantity Available:  <?php echo $productQTY ?></p>
               <div>
-                <label for="qty-1">Quantity</label><input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+                <label for="qty-1"><b>Quantity</b></label><input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
               </div>
               <br>
               <p><input type="submit" value="Add to cart" class="btn"/></p>
