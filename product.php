@@ -48,7 +48,7 @@ include("retrieveProduct.php")
               <br>
                 <br>
                   <br>
-            <h2 class="product-name"><?php echo $productName; ?></h2>
+            
               <br>
               <br>
               <br>
@@ -78,6 +78,7 @@ include("retrieveProduct.php")
   <div id="push">&nbsp;</div> 
     <div class="right-product-wrapper">
     <h2 class="product-name-right"><?php echo $productName; ?></h2>
+    <h2 class="product-name"><?php echo $productName; ?></h2>
   </div>
    </body>
    <div class="footer">
