@@ -48,8 +48,11 @@ include("retrieveProduct.php")
           <div class="product-description" data-name="Wine #1" data-price="5">
             <h3 class="product-name"><?php echo $productName; ?></h3>
             <p class="product-price">$<?php echo $productPrice; ?></p>
+            <p><?php echo $productContent ?></p>
+            <br>
+            <br>
             <form class="add-to-cart" action="cart.html" method="post">
-              <p>Quantity Available:  <?php echo $productQTY ?></p>
+              <p><b>Quantity Available:</b>  <?php echo $productQTY ?></p>
               <div>
                 <label for="qty-1"><b>Quantity</b></label><input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
               </div>
