@@ -45,7 +45,7 @@ include("retrieveProduct.php")
             <img src="menuimages/slideshow.png" height="600" width="900" alt="" />
           </div>
           <div class="product-description" data-name="Dog #1" data-price="5">
-            <h3 class="product-name">Wine #1</h3>
+            <h3 class="product-name"><?php echo $productName; ?></h3>
             <p class="product-price">&euro; 5</p>
             <form class="add-to-cart" action="cart.html" method="post">
               <div>
