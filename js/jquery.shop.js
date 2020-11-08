@@ -29,7 +29,7 @@
 			this.$paypalForm = this.$element.find( "#paypal-form" ); // PayPal form
 			
 			
-			this.currency = "&#36;"; // HTML entity of the currency to be displayed in the layout
+			this.currency = "	&#36;"; // HTML entity of the currency to be displayed in the layout
 			this.currencyString = "$"; // Currency symbol as textual string
 			this.paypalCurrency = "EUR"; // PayPal's currency code
 			this.paypalBusinessEmail = "yourbusiness@email.com"; // Your Business PayPal's account email address
@@ -529,10 +529,22 @@
 		 */
 		
 		_calculateShipping: function( qty ) {
-			var shipping = 30;
-			if( sTotal > 300) {
+			var shipping = 0;
+			if( qty >= 6 ) {
+				shipping = 10;
+			}
+			if( qty >= 12 && qty <= 30 ) {
+				shipping = 20;	
+			}
+			
+			if( qty >= 30 && qty <= 60 ) {
+				shipping = 30;	
+			}
+			
+			if( qty > 60 ) {
 				shipping = 0;
 			}
+			
 			return shipping;
 		
 		},
