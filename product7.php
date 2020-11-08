@@ -1,6 +1,6 @@
 <?php
 include("config.php");
-include("retrieveProduct2.php")
+include("retrieveProduct7.php")
 ?>
 <html>
    <div class="header">
@@ -49,7 +49,7 @@ include("retrieveProduct2.php")
           <div class="product-image">
             <img src="<?php echo $product_src ?>" height="600px" width="900px" alt="" />
           </div>
-          <div class="product-description" data-name="Dog Food 2" data-price="<?php echo $productPrice; ?>">
+          <div class="product-description" data-name="Cat Food #3" data-price="<?php echo $productPrice; ?>">
             <h3 class="product-name"><?php echo $productName; ?></h3>
             <p class="product-price">Price: 
               $<?php echo $productPrice; ?></p>
