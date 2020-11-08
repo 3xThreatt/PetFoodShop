@@ -477,14 +477,12 @@ table {
 	display: inline;
 }
 .product-name-right {
-	text-align: center;
-	display: inline;
+	text-align: right;
 }
 .product-price {
 	font-family: "Trebuchet MS";
 	color: #090A0C;
 	font-size: 40px;
-	text-align: center;
-	display: inline;
+	text-align: right;
 
 }

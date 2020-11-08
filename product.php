@@ -70,7 +70,7 @@ include("retrieveProduct.php")
 
  <div id="push">&nbsp;</div>  
   <div id="push">&nbsp;</div> 
-    <div class="right-product-wrapper" style="float: right;">
+  <div class="right-product-wrapper" style="float: right;">
     <h2 class="product-name-right"><?php echo $productName; ?></h2>
     <p class="product-price">&euro; 5</p>
   </div>
