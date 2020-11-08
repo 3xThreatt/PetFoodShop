@@ -82,6 +82,12 @@ include("config.php");
                                           <img src='<?php echo $image_src14;  ?>' >
                                              <img src='<?php echo $image_src15;  ?>' >
          </div>
+<style type="text/css">
+#menuitemborder {
+   height: 200px;
+   width: 150px;
+}
+</style>
 </body>
 
       <div id="push">&nbsp;</div>  <!---forces footer down -->
