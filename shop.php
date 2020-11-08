@@ -160,19 +160,17 @@ include("config.php");
 
 <div class="gallery">
   <a target="_blank" href="img_mountains.jpg">
-    <img src='<?php echo $image_src14;  ?>' width="600px" height="400px">
+    <img src='<?php echo $image_src14;  ?>' width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="img_mountains.jpg">
-    <img src='<?php echo $image_src15;  ?>' width="600px" height="400px">
+    <img src='<?php echo $image_src15;  ?>' width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-
-<style type="text/css">
 
 <style type="text/css">
 div.gallery {
