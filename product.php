@@ -39,27 +39,17 @@ include("retrieveProduct.php")
 <div id="site">
   <div id="content">
     <div id="products">
-      <ul>
-        <li style="list-style-type: none;">
           <div class="product-image">
             <img src="menuimages/slideshow.png" height="600" width="900" alt="" />
           </div>
           <div class="product-description" data-name="Dog Food #1" data-price="5">
           </div>
               <h2 class="product-name"><?php echo $productName; ?></h2>
-            </li>
-            <li style="list-style-type: none;">
-
-            </li>
-            <li>
               <p class="product-price">&euro; 5</p>
-              </li>
-              <li>
             <form class="add-to-cart" action="cart.html" method="post">
               <div class="push">
                 <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="Quantity" />
               </div>
-
               <br>
               <br>
               <br>
@@ -67,8 +57,6 @@ include("retrieveProduct.php")
 
             </form>
           </div>
-        </li>
-      </ul>
     </div>
   </div>
 
