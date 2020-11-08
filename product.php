@@ -52,18 +52,7 @@ include("retrieveProduct.php")
               <br>
             <p class="product-price">&euro; 5</p>
             <form class="add-to-cart" action="cart.html" method="post">
-              <div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+              <div class="push">
                 <label for="qty-1">Quantity</label>
                 <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="1" />
               </div>
