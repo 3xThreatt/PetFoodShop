@@ -279,6 +279,8 @@ input[type=text], select, textarea { /*Reference: https://www.w3schools.com/howt
   margin-bottom: 16px;
   resize: vertical;
   font-family: "Verdana";
+  background-color: #6F7170;
+  color: #f4f4f4;
 }
 input[type=submit] {/*Styles the physical design of submit inputs */
   background-color: #6F7170;
@@ -466,4 +468,6 @@ table {
 	float: right;
 	width: 100px;
 	display: inline;
+	background-color: #6F7170;
+	color: #F4F4F4;
 }
