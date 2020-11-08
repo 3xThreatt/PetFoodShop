@@ -160,14 +160,14 @@ include("config.php");
 
 <div class="gallery">
   <a target="_blank" href="img_mountains.jpg">
-    <img src='<?php echo $image_src14;  ?>' width="600" height="400">
+    <img src='<?php echo $image_src14;  ?>' width="600px" height="400px">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="img_mountains.jpg">
-    <img src='<?php echo $image_src15;  ?>' width="600" height="400">
+    <img src='<?php echo $image_src15;  ?>' width="600px" height="400px">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
@@ -175,18 +175,12 @@ include("config.php");
 <style type="text/css">
 
 <style type="text/css">
-#menuitemborder {
-   height: 200px;
-   width: 150px;
-   float: right;
-   display: inline;
-   margin: 10px;
-}
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+  background-color: #f4f4f4;
 }
 
 div.gallery:hover {
