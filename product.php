@@ -7,14 +7,11 @@ include("SQL/retrieveProduct.php")
       <head class="head">
          <link rel="stylesheet" href="External.css">
          <!--Links CSS-->
-         <script src="externalJ.js"></script><!--Links JS-->
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!---Links JQuery Lib-->
-         <script src="externalJQUERY.js"></script><!---Links external Jquery for animation etc -->
          <title>
             Home
          </title>
          <div class="wrapper">
-            <a href="index.html"><img id="logo" src="logoBW.jpg" alt='Logo'></a>
+            <a href="index.html"><img id="logo" src="logoBW.pngs" alt='Logo'></a>
             <h1 id="title"> Pet Food Shop</h1>
             <h3 id="supportingtitle">Fresh Food, Fresh Moments.</h3>
             <div>
