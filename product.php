@@ -59,27 +59,23 @@ include("retrieveProduct.php")
               <br>
               <br>
               <p><input type="submit" value="Add to cart" class="btn" /></p>
-              
+
             </form>
           </div>
         </li>
       </ul>
     </div>
   </div>
-  
+
 </div>
-  <h2 class="product-name-right"><?php echo $productName; ?></h2>
+
   
-
-
-
-
-
 
 
 
  <div id="push">&nbsp;</div>  
   <div id="push">&nbsp;</div> 
+    <h2 class="product-name-right"><?php echo $productName; ?></h2>
    </body>
    <div class="footer">
          <?php include 'footer.php';?>
