@@ -452,8 +452,8 @@ table {
 }
 
 .product-image {
-	float: left;
-	width: 500px;
-	height: 250px;
+	float: right;
+	width: 25%;
+	height: 25%;
 	display: inline;
 }
