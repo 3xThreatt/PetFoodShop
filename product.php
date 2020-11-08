@@ -45,6 +45,8 @@ include("retrieveProduct.php")
           <div class="product-description" data-name="Dog Food #1" data-price="5">
           </div>
               <h2 class="product-name"><?php echo $productName; ?></h2>
+              <br>
+
               <p class="product-price">&euro; 5</p>
             <form class="add-to-cart" action="cart.html" method="post">
               <div class="push">

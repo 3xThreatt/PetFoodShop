@@ -462,7 +462,7 @@ table {
 	list-style-type: none;
 	font-family: "Trebuchet MS";
 	font-size: 40px;
-	float: left;
+	text-align: : left;
 }
 .qty {
 	float: right;
@@ -477,6 +477,6 @@ table {
 	color: #090A0C;
 	font-size: 40px;
 	text-align: left;
-	float: left;
+
 
 }
