@@ -453,7 +453,5 @@ table {
 
 .product-image {
 	float: right;
-	width: 25%;
-	height: 25%;
 	display: inline;
 }

@@ -42,7 +42,7 @@ include("retrieveProduct.php")
       <ul>
         <li>
           <div class="product-image">
-            <img src="menuimages/slideshow.png" alt="" />
+            <img src="menuimages/slideshow.png" height="600" width="900" alt="" />
           </div>
           <div class="product-description" data-name="Dog #1" data-price="5">
             <h3 class="product-name">Wine #1</h3>
