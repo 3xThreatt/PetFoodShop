@@ -67,7 +67,7 @@ include("config.php");
          </div>
 
          <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
+  <a target="_blank" href="product.php">
     <img src='<?php echo $image_src;  ?>' width="600" height="400">
   </a>
   <div class="desc"><?php echo $content2;  ?><br>$<?php echo $money2; ?></div>
