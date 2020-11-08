@@ -11,7 +11,7 @@ include("SQL/retrieveProduct.php")
             Home
          </title>
          <div class="wrapper">
-            <a href="index.html"><img id="logo" src="logoBW.pngs" alt='Logo'></a>
+            <a href="index.html"><img id="logo" src="logoBW.png" alt='Logo'></a>
             <h1 id="title"> Pet Food Shop</h1>
             <h3 id="supportingtitle">Fresh Food, Fresh Moments.</h3>
             <div>
