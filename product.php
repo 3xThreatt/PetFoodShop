@@ -35,7 +35,7 @@ include("retrieveProduct.php")
 <div id="orangeBox">
   <a href="dogfood.php" style="text-decoration: none; color: #f4f4f4; "><span id="x">X</span></a>
 </div>
-<?php echo $productContent; ?></p>
+
 <div id="site">
   <div id="content">
     <div id="products">
@@ -49,7 +49,7 @@ include("retrieveProduct.php")
               <h2 class="product-name"><?php echo $productName; ?></h2>
             </li>
             <li style="list-style-type: none;">
-              <p class="description"><?php echo $productName; ?></p>
+
             </li>
             <li>
               <p class="product-price">&euro; 5</p>
