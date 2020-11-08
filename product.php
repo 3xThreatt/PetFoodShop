@@ -44,16 +44,14 @@ include("retrieveProduct.php")
           </div>
           <div class="product-description" data-name="Dog Food #1" data-price="5">
           </div>
-              <h2 class="product-name"><?php echo $productName; ?></h2>
+                        <br>
               <br>
-
+              <h2 class="product-name"><?php echo $productName; ?></h2>
               <p class="product-price">&euro; 5</p>
             <form class="add-to-cart" action="cart.html" method="post">
               <div class="push">
                 <input size="10" type="text" name="qty-1" id="qty-1" class="qty" value="Quantity" />
               </div>
-              <br>
-              <br>
               <br>
               <p><input type="submit" value="Add to cart" class="btn" /></p>
 
