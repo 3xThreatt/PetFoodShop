@@ -282,16 +282,7 @@ input[type=text], select, textarea { /*Reference: https://www.w3schools.com/howt
   background-color: #6F7170;
   color: #f4f4f4;
 }
-input[type=submit] {/*Styles the physical design of submit inputs */
-  background-color: #6F7170;
-  font-family: "Verdana";
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: left;
-}
+
 .input[type=password], select, textarea {/*Styles the physical design of password inputs */
   width: 100%;
   display: inline-block;
