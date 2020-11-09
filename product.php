@@ -1,7 +1,6 @@
 <?php
 include("config.php");
 include("retrieveProduct.php")
-include("updateQuantity.php")
 ?>
 <html>
    <div class="header">
