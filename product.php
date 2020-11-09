@@ -62,6 +62,7 @@ include("retrieveProduct.php")
                 <form name="form" action="updateQuantity.php" method="post">
                 <label for="qty-1"><b>Quantity</b></label><input type="text" name="qty-1" id="qty-1" class="qty" value="1" formaction="updateQuantity.php" />
               </div>
+            </form>
               <br>
               <p><input type="submit" value="Add to cart" class="btn"/></p>
             </form>
