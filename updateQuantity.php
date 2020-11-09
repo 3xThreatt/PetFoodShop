@@ -8,7 +8,7 @@ $row = mysqli_fetch_array($result);
 $productQTY = $row['productQTY'];
 
 
-$quantityget = "UPDATE `Product` SET `productQTY` = '$productQTY'-'1' WHERE `Product`.`productID` = 1";
+$quantityget = "UPDATE `Product` SET `productQTY` = '$productQTY'-'$_POST['qty-1']' WHERE `Product`.`productID` = 1";
 $quantityresult = mysqli_query($con,$quantityget);
 $fetched = mysqli_fetch_array($quantityresult);
 
