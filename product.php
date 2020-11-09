@@ -1,6 +1,7 @@
 <?php
 include("config.php");
 include("retrieveProduct.php")
+include("updateQuantity.php")
 ?>
 <html>
    <div class="header">
@@ -58,10 +59,9 @@ include("retrieveProduct.php")
             <br>
             <form class="add-to-cart" action="cart.html" method="post">
               <p><b>Quantity Available:</b>  <?php echo $productQTY ?></p>
-              
-              <div <?php include("updateQuantity.php") ?>>
+              <div>
                 <form name="form" action="updateQuantity.php" method="post">
-                <label for="qty-1"><b>Quantity</b></label><input type="text" name="qty-1" id="qty-1" class="qty" value="1" formaction="updateQuantity.php" />
+                <label for="qty-1"><b>Quantity</b></label><input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
               </div>
             </form>
               <br>
