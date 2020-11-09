@@ -34,12 +34,12 @@
       <div id="rectangle2">
       </div>
       <div class="container">	<!--featured products displayed as images which link to the shop page -->
-      <div class="tile"><a href="shop.php"><img src="Tile1.png"></div></a>
-      <div class="tile"><a href="shop.php"><img src="Tile2.png"></div></a>
-      <div class="tile"><a href="shop.php"><img src="Tile1.png"></div></a>
-      <div class="tile"><a href="shop.php"><img src="Tile3.png"></div></a>
-      <div class="tile"><a href="shop.php"><img src="Til4.png"></div></a>
-      <div class="tile"><a href="shop.php"><img src="Tile2.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="menuimages/slideshow.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="menuimages/slideshow1.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="menuimages/slideshow2.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="menuimages/slideshow3.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="menuimages/slideshow4.png"></div></a>
+      <div class="tile"><a href="shop.php"><img src="menuimages/slideshow5.png"></div></a>
       </div>
       <h1 class="at-item">Welcome</h1> <!--css animation-->
       <img src="pngegg.png" class="dog">	<!---decorative dog. Woof! -->
