@@ -16,5 +16,4 @@ $toprint = $fetched['productQTY']
 
 
 ?>
-<?php echo $fetched ?>
-<?php echo $productQTY ?>
+<?php echo $_POST['qty-1']; ?>
