@@ -71,7 +71,7 @@ include("retrieveProduct.php")
   </div>
 </span>
 </h1>
-
+<?php include("updateQuantity.php") ?>
  <div id="push">&nbsp;</div>  
   <div id="push">&nbsp;</div> 
    </body>
