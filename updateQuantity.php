@@ -16,15 +16,4 @@ $toprint = $fetched['productQTY']
 
 
 ?>
-<?php echo $_POST['qty-1']; ?>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-<form name="form" action="updateQuantity.php" method="post">
-  <input type="text" name="qty-1" id="qty-1" class="qty" value="1" formaction="updateQuantity.php" />
-              </div>
-            </form>
-</body>
-</html>
+<?php echo "Test" ?>
