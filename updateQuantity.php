@@ -17,7 +17,6 @@ $toprint = $fetched['productQTY']
 
 ?>
 <?php echo $_POST['qty-1']; ?>
-
 <html>
 <head>
 	<title></title>
