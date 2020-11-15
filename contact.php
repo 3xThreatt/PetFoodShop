@@ -49,16 +49,17 @@ include("config.php");
          </div>
          <br>
          <br>
-         <br><!---Reference: Generated Automatically via https://www.maps.ie/create-google-map/ credit to maps.ie --->
-         <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=139%20carrington%20road+(Unitec)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>     
-         </div>
+         <br>
          <div id="push">&nbsp;</div>
 
-         <div <?php include("class4.php"); ?>>
+         <div <?php include("class4.php"); ?>> 
+            <?php echo $abel->get_name(); ?>
             <?php echo $abel->get_position(); ?>
+            <?php echo $abel->get_phone(); ?>
+            <?php echo $abel->get_email(); ?>
 
 
-
+               <div id="push">&nbsp;</div>
       </body>
       <div class="footer">
          <?php include 'footer.php';?>
