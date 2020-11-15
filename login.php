@@ -29,7 +29,7 @@
             <!--page title -->
             <img src="Pet2.jpg" class="center" width="50%" height="50%">     <!---image for decorative purpose -->
             <div <?php include("class5.php") ?>>
-            <h2 style="color: red; text-align: center;"><?php echo $down->get_error(); ?></h2>
+            <?php echo $down->get_error(); ?>
 
       </div>
       <div id="push">&nbsp;</div> <!--pushes footer down-->
