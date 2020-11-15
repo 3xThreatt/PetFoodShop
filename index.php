@@ -68,16 +68,14 @@
    <td class="td"><h4 style="font-size: 15px;"><?php echo $jane->get_desc(); ?></h4></td>
    <td><?php echo $jane->get_star(); ?></td>  <!--html encoded starts. 9733 = dark, 9734 = white -->
    <tr>
-   <td class="td">Joe bloggs</td>
-   <td class="td"><h4 style="font-size: 15px;">Pet Food Shop is alright. Their prices are pretty reasonable</h4></td> <!--main text is saved into cell in table as a paragraph -->
-   <td class="td">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+   <td class="td"><?php echo $joe->get_name(); ?></td>
+   <td class="td"><h4 style="font-size: 15px;"><?php echo $joe->get_desc(); ?></h4></td> <!--main text is saved into cell in table as a paragraph -->
+   <td class="td"><?php echo $joe->get_star(); ?></td>
    </tr>
    <tr>
-   <td class="td">John Dee</td>
-   <td><h4 style="font-size: 15px;">I have to say that I recently have enjoyed the boost in quality<br> and 
-   variety on Pet Food Store. Ever since they made their way into the digital world, their game has<br>
-   been at its best. Keep it up!</h4></td>
-   <td class="td">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+   <td class="td"><?php echo $john->get_name(); ?></td>
+   <td><h4 style="font-size: 15px;"><?php echo $john->get_desc(); ?></h4></td>
+   <td class="td"><?php echo $john->get_star(); ?></td>
    </tr>
    </table>
    </div>
