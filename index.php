@@ -33,8 +33,8 @@
       <h2 id="animation-link" style="text-align: center;"></h2> <!----Reference: Credit to https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_typewriter -->     <!--javascript text animation starts -->
       <div id="rectangle2">
       </div>
-      <div class="container">	<!--featured products displayed as images which link to the shop page -->
-      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="menuimages/slideshow.png"></div></a>
+      <div class="container" <?php include('class2.php') ?>>	<!--featured products displayed as images which link to the shop page -->
+      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="<?php echo $image->get_image(); ?>"></div></a>
       <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="menuimages/slideshow1.png"></div></a>
       <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="menuimages/slideshow2.png"></div></a>
       <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="menuimages/slideshow3.png"></div></a>
