@@ -86,9 +86,6 @@
 <br>
 <div id="output"><img src="Tile2.PNG"></div>
 </div>
-<div <?php include("class4.php") ?>>
-   <?php echo $date->get_date ?>
-   </div>
 
    <div id="push">&nbsp;</div> <!--forces footer down -->
    </body>
