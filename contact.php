@@ -54,6 +54,9 @@ include("config.php");
          </div>
          <div id="push">&nbsp;</div>
 
+         <div <?php include("class4.php"); ?>>
+            <?php echo $abel->get_position(); ?>
+
 
 
       </body>
