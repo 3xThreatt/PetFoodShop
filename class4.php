@@ -14,14 +14,5 @@ class DateTime {
 }
 
 $date = new DateTime();
-$date->set_date(date("Y-m-d"));
+$date->set_date('date("Y-m-d")');
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
-<?php echo $date->get_date(); ?>
-</body>
-</html>
