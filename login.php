@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html>
    <div class="header">
       <head class="head">
