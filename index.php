@@ -86,7 +86,7 @@
 <br>
 <h2 style="text-align: center;" id="input" class="animateJ">Hover to see deal of the day!</h2>
 <br>
-<div id="output"><img src="Tile2.png"></div>
+<div id="output"><img src="Tile2.PNG"></div>
 </div>
 
    <div id="push">&nbsp;</div> <!--forces footer down -->
