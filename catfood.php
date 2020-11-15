@@ -33,7 +33,7 @@ include("config.php");
                <li id="centerNAVli"><a id="centerNAVa" href="index.php">Home</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="shop.php">Shop</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="contact.php">Contact Us</a></li>
-               <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
+               <li id="centerNAVli"><a id="centerNAVa" href="login.php">Log In</a></li>
             </ul>
             <div class="leftpanel">
                <!-- Left panel where categories, filters and invoice are available-->

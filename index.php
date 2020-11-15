@@ -27,7 +27,7 @@
                <li id="centerNAVli"><a id="centerNAVa" href="index.html">Home</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="shop.php">Shop</a></li>
                <li id="centerNAVli"><a id="centerNAVa" href="contact.php">Contact Us</a></li>
-               <li id="centerNAVli"><a id="centerNAVa" href="login.html">Log In</a></li>
+               <li id="centerNAVli"><a id="centerNAVa" href="login.php">Log In</a></li>
             </ul>
       </div>
       <h2 id="animation-link" style="text-align: center;"></h2> <!----Reference: Credit to https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_typewriter -->     <!--javascript text animation starts -->
