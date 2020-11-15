@@ -51,7 +51,6 @@ include("config.php");
          <br>
          <br>
          <h1> Our People </h1>
-         <div id="push">&nbsp;</div>
 
          <div <?php include("class4.php"); ?>> 
             <?php echo $abel->get_name(); ?><br>
@@ -60,19 +59,19 @@ include("config.php");
             <?php echo $abel->get_email(); ?><br>
                   <br>     <br>     <br>
             <?php echo $ben->get_name(); ?>
-            <?php echo $ben->get_position(); ?>
-            <?php echo $ben->get_phone(); ?>
-            <?php echo $ben->get_email(); ?>
+            <?php echo $ben->get_position(); ?><br>
+            <?php echo $ben->get_phone(); ?><br>
+            <?php echo $ben->get_email(); ?><br>
                   <br>     <br>     <br>
             <?php echo $harriot->get_name(); ?>
-            <?php echo $harriot->get_position(); ?>
-            <?php echo $harriot->get_phone(); ?>
-            <?php echo $harriot->get_email(); ?>
+            <?php echo $harriot->get_position(); ?><br>
+            <?php echo $harriot->get_phone(); ?><br>
+            <?php echo $harriot->get_email(); ?><br>
                   <br>     <br>     <br>
             <?php echo $peter->get_name(); ?>
-            <?php echo $peter->get_position(); ?>
-            <?php echo $peter->get_phone(); ?>
-            <?php echo $peter->get_email(); ?>
+            <?php echo $peter->get_position(); ?><br>
+            <?php echo $peter->get_phone(); ?><br>
+            <?php echo $peter->get_email(); ?><br>
 
 
 
