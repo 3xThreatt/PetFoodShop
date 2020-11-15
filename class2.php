@@ -2,6 +2,11 @@
 class Display {
   // Properties
   public $image;
+  public $image2;
+  public $image3;
+  public $image4;
+  public $image5;
+  public $image6;
 
 
   // Methods
