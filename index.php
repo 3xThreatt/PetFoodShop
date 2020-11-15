@@ -65,8 +65,7 @@
    <th colspan="3" class="th">Recent Reviews</th> <!--header stretching all rows -->
    </tr>
    <td class="td"><?php echo $jane->get_name(); ?> </td>
-   <td class="td"><h4 style="font-size: 15px;">The quality of food at Pet Food Store is something quite unique <br>to the market.
-   I look forward to shopping more</h4></td>
+   <td class="td"><h4 style="font-size: 15px;"><?php echo $jane->get_desc(); ?></h4></td>
    <td><?php echo $jane->get_star(); ?></td>  <!--html encoded starts. 9733 = dark, 9734 = white -->
    <tr>
    <td class="td">Joe bloggs</td>

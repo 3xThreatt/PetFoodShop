@@ -3,6 +3,7 @@ class Review {
   // Properties
   public $name;
   public $star;
+  public $desc
 
   // Methods
   function set_name($name) {
@@ -17,10 +18,18 @@ class Review {
   function get_star() {
     return $this->star;
   }
+  }
+  function set_desc($desc) {
+    $this->desc = $desc;
+  }
+  function get_desc() {
+    return $this->desc;
+  }
 }
 
 $jane = new Review();
-$jane->set_name('jane');
+$jane->set_name('Jane');
+$jane->set_desc('The quality of food at Pet Food Store is something quite unique
+                to the market. I look forward to shopping more');
 $jane->set_star('4/5');
-
 ?>
