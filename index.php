@@ -59,11 +59,12 @@
    <br>
    <br>
    <br>
+   <div <?php include("class.php"); ?>>
    <table class="table">    <!---Review table designed to show latest reviews -->
    <tr>
    <th colspan="3" class="th">Recent Reviews</th> <!--header stretching all rows -->
    </tr>
-   <td class="td">Sarah Jane</td>
+   <td class="td"><?php echo "Name: " . $apple->get_name(); ?> </td>
    <td class="td"><h4 style="font-size: 15px;">The quality of food at Pet Food Store is something quite unique <br>to the market.
    I look forward to shopping more</h4></td>
    <td>&#9733;&#9733;&#9733;&#9733;&#9734;</td>  <!--html encoded starts. 9733 = dark, 9734 = white -->
@@ -80,6 +81,7 @@
    <td class="td">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
    </tr>
    </table>
+   </div>
    </div>
 <br>
 <br>
