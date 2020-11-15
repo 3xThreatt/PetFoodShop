@@ -1,8 +1,8 @@
 <?php
-class Fruit {
+class Review {
   // Properties
   public $name;
-  public $color;
+  public $star;
 
   // Methods
   function set_name($name) {
@@ -11,18 +11,16 @@ class Fruit {
   function get_name() {
     return $this->name;
   }
-  function set_color($color) {
-    $this->color = $color;
+  function set_star($star) {
+    $this->star = $star;
   }
-  function get_color() {
-    return $this->color;
+  function get_star() {
+    return $this->star;
   }
 }
 
-$apple = new Fruit();
-$apple->set_name('Apple');
-$apple->set_color('Red');
-echo "Name: " . $apple->get_name();
-echo "<br>";
-echo "Color: " .  $apple->get_color();
+$jane = new Review();
+$jane->set_name('jane');
+$jane->set_star('4/5');
+
 ?>
