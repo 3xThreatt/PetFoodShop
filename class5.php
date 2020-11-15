@@ -1,18 +1,17 @@
 <?php
-class Message {
+class Loginerror {
   // Properties
-  public $error;
-  public $down;
+  public $name;
   // Methods
-  function set_position($error) {
-    $this->error = $error;
+  function set_name($name) {
+    $this->name = $name;
   }
-  function get_error() {
-    return $this->error;
+  function get_name() {
+    return $this->name;
   }
 }
 
-$down = new Message();
-$down->set_error('The Login page is currently down for maintenance, please check in later');
+$newerror = new Loginerror();
+$newerror->set_name('This page is currently down for maintenance, please try again later.');
 
 ?>
