@@ -36,10 +36,10 @@
       <div class="container" <?php include('class2.php') ?>>	<!--featured products displayed as images which link to the shop page -->
       <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="<?php echo $image->get_image(); ?>"></div></a>
       <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="<?php echo $image_second->get_image(); ?>"></div></a>
-      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src=""></div></a>
-      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src=""></div></a>
-      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src=""></div></a>
-      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src=""></div></a>
+      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="<?php echo $image_third->get_image(); ?>"></div></a>
+      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="<?php echo $image_fourth->get_image(); ?>"></div></a>
+      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="<?php echo $image_fifth->get_image(); ?>"></div></a>
+      <div class="tile"><a href="shop.php"><img width="150px" height="200px" src="<?php echo $image_sixth->get_image(); ?>"></div></a>
       </div>
       <h1 class="at-item">Welcome</h1> <!--css animation-->
       <img src="pngegg.png" class="dog">	<!---decorative dog. Woof! -->
