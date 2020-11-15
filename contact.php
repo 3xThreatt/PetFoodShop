@@ -58,17 +58,17 @@ include("config.php");
             <?php echo $abel->get_phone(); ?><br>
             <?php echo $abel->get_email(); ?><br>
                   <br>     <br>     <br>
-            <?php echo $ben->get_name(); ?>
+            <?php echo $ben->get_name(); ?><br>
             <?php echo $ben->get_position(); ?><br>
             <?php echo $ben->get_phone(); ?><br>
             <?php echo $ben->get_email(); ?><br>
                   <br>     <br>     <br>
-            <?php echo $harriot->get_name(); ?>
+            <?php echo $harriot->get_name(); ?><br>
             <?php echo $harriot->get_position(); ?><br>
             <?php echo $harriot->get_phone(); ?><br>
             <?php echo $harriot->get_email(); ?><br>
                   <br>     <br>     <br>
-            <?php echo $peter->get_name(); ?>
+            <?php echo $peter->get_name(); ?><br>
             <?php echo $peter->get_position(); ?><br>
             <?php echo $peter->get_phone(); ?><br>
             <?php echo $peter->get_email(); ?><br>
