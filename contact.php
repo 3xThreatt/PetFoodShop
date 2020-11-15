@@ -50,13 +50,14 @@ include("config.php");
          <br>
          <br>
          <br>
+         <h1> Our People </h1>
          <div id="push">&nbsp;</div>
 
          <div <?php include("class4.php"); ?>> 
-            <?php echo $abel->get_name(); ?>
-            <?php echo $abel->get_position(); ?>
-            <?php echo $abel->get_phone(); ?>
-            <?php echo $abel->get_email(); ?>
+            <?php echo $abel->get_name(); ?>       <?php echo $ben->get_name(); ?>  <br>
+            <?php echo $abel->get_position(); ?>     <?php echo $ben->get_position(); ?> <br>
+            <?php echo $abel->get_phone(); ?>         <?php echo $ben->get_phone(); ?> <br>
+            <?php echo $abel->get_email(); ?>         <?php echo $ben->get_email(); ?> <br>
 
 
                <div id="push">&nbsp;</div>
