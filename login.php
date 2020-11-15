@@ -29,7 +29,10 @@
             <h3 id="contacttitle"> Sign Up or Log In </h3>
             <!--page title -->
             <img src="Pet2.jpg" class="center" width="50%" height="50%">     <!---image for decorative purpose -->
-            <h2 style="color: red; text-align: center;">The Login page is currently down for maintenance, please check in later </h2>
+            <div <?php include("class5.php") ?>>
+            <h2 style="color: red; text-align: center;"><?php echo $down->get_error; ?></h2>
+            <!--<h2 style="color: red; text-align: center;"><?php //echo $up->get_error; ?></h2> -->
+
       </div>
       <div id="push">&nbsp;</div> <!--pushes footer down-->
       </body>
