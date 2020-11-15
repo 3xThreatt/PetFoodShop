@@ -44,13 +44,11 @@
       <h1 class="at-item">Welcome</h1> <!--css animation-->
       <img src="pngegg.png" class="dog">	<!---decorative dog. Woof! -->
    </div>
-   <h4>Welcome to pet food shop. We hope you find our<br>
-   products and prices fair. Our team is dedicated to delivering<br>
-   the best products on the market at the most affordable prices</h4></div>
+   <div <?php include('class3.php'); ?>>
+   <h4><?php echo $welcome->get_welcome(); ?></h4></div>
    <br>
-   <h4>If you have any questions you can send us a message on<br>
-   our contact page. If you would like to leave a review,<br>
-   feel free to use our review box.</h4>
+   <h4>><?php echo $welcome_second->get_welcome(); ?></h4>
+   </div>
    <br>
    <br>
    <br>
