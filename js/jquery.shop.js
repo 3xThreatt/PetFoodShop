@@ -1,3 +1,5 @@
+//Reference: https://www.smashingmagazine.com/2014/02/create-client-side-shopping-cart/
+
 (function( $ ) {
 	$.Shop = function( element ) {
 		this.$element = $( element );
