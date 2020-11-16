@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  <!--Reference https://www.smashingmagazine.com/2014/02/create-client-side-shopping-cart/ -->
 <html>
 <head>
 <title>Your Shopping Cart</title>
 <meta charset="utf-8" />
-<link rel="stylesheet" href="External.css" media="screen" type="text/css" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.shop.js"></script>
+<link rel="stylesheet" href="External.css" media="screen" type="text/css" /> <!--links css -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!--links Jquery -->
+<script type="text/javascript" src="js/jquery.shop.js"></script><!--links Cart js -->
 </head>
 
 <body>
@@ -14,12 +14,12 @@
 	<header id="masthead">
 	</header>
 	<div id="content">
-		<h1 style="text-align: center;">Your Shopping Cart</h1>
+		<h1 style="text-align: center;">Your Shopping Cart</h1><!--Title for cart -->
 		<form id="shopping-cart" action="cart.html" method="post">
 			<table class="shopping-cart">
 			  <thead>
 				<tr>
-					<th scope="col">Item</th>
+					<th scope="col">Item</th><!--sets headers  -->
 					<th scope="col">Qty</th>
 					<th scope="col" colspan="2">Price</th>
 				</tr>
@@ -30,20 +30,20 @@
 			</table>
 			<div class="wrapper-cart">
 			<p id="sub-total">
-				<strong style="text-align: center;">Sub Total</strong>: <span id="stotal"></span>
+				<strong style="text-align: center;">Sub Total</strong>: <span id="stotal"></span><!--sets total  -->
 			</p>
 			<ul id="shopping-cart-actions">
 				<li style="list-style-type: none;">
-					<input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+					<input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" /><!--update the cart  -->
 				</li>
 				<li style="list-style-type: none;" >
-					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" /><!--empty the cart of products-->
 				</li>
 				<li style="list-style-type: none;">
-					<a  href="shop.php" class="btn" style="text-decoration: none; color: #090A0C;">Continue Shopping</a>
+					<a  href="shop.php" class="btn" style="text-decoration: none; color: #090A0C;">Continue Shopping</a><!--Takes u back to the shop-->
 				</li>
 				<li style="list-style-type: none;">
-					<a href="checkout.html" class="btn" style="text-decoration: none; color: #090A0C;">Go To Invoice</a>
+					<a href="checkout.html" class="btn" style="text-decoration: none; color: #090A0C;">Go To Invoice</a><!--Takes u to checkout-->
 				</li>
 			</ul>
 		</div>
