@@ -1,37 +1,38 @@
-<!DOCTYPE html>
 <html>
    <div class="header">
-      <head class="head">
-         <link rel="stylesheet" href="External.css">
-         <!--links CSS -->
-         <title>
-            Login/Signup
-         </title>
-         <div class="wrapper">
-            <a href="index.php"><img id="logo" src="logoBW.png" alt='Logo'></a> <!--Links Black and White logo -->
-            <h1 id="title"> Pet Food Shop</h1>
-            <h3 id="supportingtitle">Fresh Food, Fresh Moments.</h3>
-            <div>
-            </div>
-            </ul>
-      </head>
-      </div>
-      <div class="content">
-         <!--main content container of page -->
-         <body>
-            <ul id="centerNAVul">
-               <!--navigation bar for easy navigation of website -->
-               <li id="centerNAVli"><a id="centerNAVa" href="index.php">Home</a></li>
-               <li id="centerNAVli"><a id="centerNAVa" href="shop.php">Shop</a></li>
-               <li id="centerNAVli"><a id="centerNAVa" href="contact.php">Contact Us</a></li>
-               <li id="centerNAVli"><a id="centerNAVa" href="login.php">Log In</a></li>
-            </ul>
-            <h3 id="contacttitle"> Sign Up or Log In </h3>
-            <!--page title -->
-            <img src="Pet2.jpg" class="center" width="50%" height="50%">     <!---image for decorative purpose -->
-            <h2 style="color: red; text-align: center;">The Login page is currently down for maintenance, please check in later </h2>
-      </div>
-      <div id="push">&nbsp;</div> <!--pushes footer down-->
+   <head class="head">
+      <link rel="stylesheet" href="External.css">
+      <!--links CSS -->
+      <title>
+         Login/Signup
+      </title>
+      <div class="wrapper">
+         <a href="index.php"><img id="logo" src="logoBW.png" alt='Logo'></a> <!--Links Black and White logo -->
+         <h1 id="title"> Pet Food Shop</h1>
+         <h3 id="supportingtitle">Fresh Food, Fresh Moments.</h3>
+         <div>
+         </div>
+         </ul>
+   </head>
+   </div>
+   <div class="content">
+      <!--main content container of page -->
+      <body>
+         <ul id="centerNAVul">
+            <!--navigation bar for easy navigation of website -->
+            <li id="centerNAVli"><a id="centerNAVa" href="index.php">Home</a></li>
+            <li id="centerNAVli"><a id="centerNAVa" href="shop.php">Shop</a></li>
+            <li id="centerNAVli"><a id="centerNAVa" href="contact.php">Contact Us</a></li>
+            <li id="centerNAVli"><a id="centerNAVa" href="login.php">Log In</a></li>
+         </ul>
+         <h3 id="contacttitle"> Sign Up or Log In </h3>
+         <!--page title -->
+         <img src="Pet2.jpg" class="center" width="50%" height="50%">     <!---image for decorative purpose -->
+         <div <?php include("class5.php") ?>>
+            <h2 style="text-align: center; color: red;"><?php echo $newerror->get_name(); ?></h2>
+         </div>
+         <div id="push">&nbsp;</div>
+         <!--pushes footer down-->
       </body>
       <div class="footer">
          <br>

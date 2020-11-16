@@ -423,7 +423,7 @@ table {
 
 }
 
-.banner-pictures {
+.banner-pictures {   /* css style for the pictures, accompanying the JQuery and PHP */
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -431,7 +431,7 @@ table {
 	height: 200px;
 	position: sticky;
 }
-#orangeBox {
+#orangeBox { /* styles the exit button on each page. Reference: https://stackoverflow.com/questions/18920542/draw-an-x-in-css */
   background-color: #6F7170;
   color: #fff;
   font-family: 'Helvetica', 'Arial', sans-serif;
@@ -445,25 +445,25 @@ table {
   padding: 20px;
 }
 
-.product-image {
+.product-image {/* styles the image on each product page */
 	float: right;
 	display: inline;
 }
-.product-name {
+.product-name {/* styles the name on each product page */
 	list-style-type: none;
 	font-family: "Trebuchet MS";
 	font-size: 40px;
 	text-align: : left;
 }
 
-.product-price {
+.product-price {/* styles the price tag on each product page */
 	font-family: "Trebuchet MS";
 	color: #090A0C;
 	text-align: left;
 
 
 }
-.wrapper-cart {
+.wrapper-cart {  /* used to center and align the div wrapper for the cart */
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
